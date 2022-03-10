@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .img {
+        height: 300px;
+      }
+      .wrapper {
+        width: 300px;
+        height: 30px;
+        border: 1px solid black;
+      }
+      .wrapper .content {
+        width: 0;
+        height: 30px;
+        background-color: blue;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="file" />
+    <img src="" alt="" class="img" />
+    <script>
+      var reader = new FileReader(); //创建FileReader（读文件对象）
+      var inp = document.getElementsByTagName("input")[0];
+      var img = document.getElementsByClassName("img")[0];
+      var con = document.getElementsByClassName("content")[0];
+      var text = document.querySelector(".text");
+      inp.onchange = function () {
+        //onchange是当用户改变input输入框内容时执行一段JS代码时触发
+        console.log(inp.files); //flies 是你上传什么文件，他就会给你返回一个文件信息的伪数组
+        reader.readAsDataURL(inp.files[0]); //读取文件，伪数组中的第0项
+      };
+      reader.onloadstart = function (e) {
+        console.log("读取开始时触发", e);
+      };
+      reader.onprogress = function (e) {
+        // console.log('读取中', e。loaded / e.total * 100%);
+        var precent = (e.loaded / e.total) * 100; //当前读取的值除以文件总大小，乘以100%。在读取中会不断触发
+        var width = Math.round((300 * precent) / 100); //进度条长度300乘以前面得到的值，除以100%，四舍五入取整
+        con.style.width = width + "px"; //把值赋给宽度
+        text.innerHTML = Math.round(precent) + "%"; //把读取中的值取整把数字赋给文字进度条
+      };
+      reader.onloadend = function (e) {
+        console.log("读取完成", e);
+        const result = e.target.result;
+        const a = document.createElement("a");
+        a.style.display = "none";
+        a.href = result;
+        a.download = "ddd.pdf";
+        document.body.appendChild(a);
+        a.click();
+      };
+      reader.onload = function (e) {
+        console.log("文件读取成功", e);
+        img.src = e.target.result;
+      };
+      reader.onabort = function (e) {
+        console.log("中断时触发", e);
+      };
+      reader.onerror = function (e) {
+        console.log("出错时触发", e);
+      };
+    </script>
+  </body>
+</html>
