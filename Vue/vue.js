@@ -4989,6 +4989,7 @@
   function createComputedGetter(key) {
     return function computedGetter() {
       var watcher = this._computedWatchers && this._computedWatchers[key];
+      console.log("computedGetter", this, watcher, Dep, Dep.target);
       if (watcher) {
         if (watcher.dirty) {
           watcher.evaluate();

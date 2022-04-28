@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html dir="rtl" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,9 +8,8 @@
   </head>
   <body>
     <div id="app-2">
-      <span v-bind:title="message">
-        鼠标悬停几秒钟查看此处动态绑定的提示信息！
-      </span>
+      <span v-bind:title="message"> 鼠目 </span>
+      <span> {{message | myFilter}}</span>
     </div>
   </body>
   <script src="./vue.js"></script>
@@ -18,8 +17,30 @@
     var app2 = new Vue({
       el: "#app-2",
       data: {
-        message: "页面加载于 " + new Date().toLocaleString(),
+        message: "d " + new Date().toLocaleString(),
+      },
+      computed: {
+        a: {
+          get: function () {
+            return this.message + "computed";
+          },
+        },
+      },
+      filters: {
+        myFilter: function (value) {
+          if (value) return "yes";
+          else return "no";
+        },
+      },
+      mounted() {
+        setTimeout(() => {
+          console.log(this.a);
+          console.log(this.a);
+          this.message = "aaa";
+          console.log(this.a);
+        }, 1000);
       },
     });
+    console.log(Vue.filter);
   </script>
 </html>
