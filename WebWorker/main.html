@@ -13,6 +13,7 @@
             w = new Worker("demo_workers.js");
           }
           w.onmessage = function (event) {
+            console.log(event);
             document.getElementById("result").innerHTML = event.data;
           };
         } else {
