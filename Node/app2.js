@@ -1,8 +1,10 @@
 const http = require('http');
 const net = require('net');
+const os = require('os')
 const { URL } = require('url');
 
 // Create an HTTP tunneling proxy
+console.log('version---',os.version(),os.hostname(),os.cpus())
 const proxy = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('okay');
@@ -43,7 +45,7 @@ proxy.listen(1337, '127.0.0.1', () => {
                  'Connection: close\r\n' +
                  '\r\n');
     socket.on('data', (chunk) => {
-      console.log(chunk,chunk.toString());
+    //   console.log(chunk,chunk.toString());
     });
     socket.on('end', () => {
       proxy.close();
