@@ -15,6 +15,24 @@
             "request": "launch",
             "name": "FileReader",
             "file": "e:\\project\\snacks\\FileReader\\main.html"
+        },
+        {
+            "type": "firefox",
+            "request":"launch",
+            "name": "Drag",
+            "file":"e:\\project\\snacks\\Drag\\index.html"
+        },
+        {
+            "type": "firefox",
+            "request":"launch",
+            "name": "DragH5",
+            "file":"e:\\project\\snacks\\Drag\\index2.html"
+        },
+        {
+            "type": "firefox",
+            "request":"launch",
+            "name": "HTML",
+            "file":"e:\\project\\snacks\\HTML\\index.html"
         }
     ]
 }
