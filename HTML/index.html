@@ -4,13 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HTML</title>
   </head>
+  <style>
+    #test-1 > div {
+      overflow: hidden; /* 超出盒子隐藏 */
+      display: -webkit-box; /* 弹性盒子模型 */
+      -webkit-line-clamp: 3; /* 显示行数 */
+      text-overflow: ellipsis; /* 多行文本，省略号隐藏溢出范围文本 */
+      -webkit-box-orient: vertical; /* 子元素垂直排列 */
+    }
+  </style>
   <body>
-    <div class="dataset" data-my_data="myData"></div>
-    <script>
-      const dataset = document.getElementsByClassName("dataset")[0];
-      console.log("dataset out", dataset.dataset.my_data);
-    </script>
+    <div
+      id="test-1"
+      title="文本超出显示省略号"
+      style="background: gray; height: 100px; width: 150px"
+    >
+      <div>
+        IBM奖是1984至2002年间颁发给NBA篮球运动员的年度奖项。该奖由科技公司IBM赞助，经计算机公式决定得主，公式以球员对球队所做贡献为衡量标准。每个赛季中对所在球队贡献最大的球员获奖。洛杉矶湖人的魔术师约翰逊是奖项的首位得主，最后一位获奖者则是圣安东尼奥马刺的蒂姆·邓肯。获奖的大部分球员都是球队的前锋或中锋，许多人在相应赛季争得的篮板球数量也是最多的。奖项一共颁发了19次，其中圣安东尼奥马刺队球员有6次获奖。大卫·罗宾逊获奖次数最多，达到5次。2015年迪肯贝·穆托姆博入选奈史密斯篮球名人纪念堂后，所有IBM奖得主中有资格入选名人纪念堂的球员均已入选。
+      </div>
+    </div>
+    <script></script>
   </body>
 </html>
