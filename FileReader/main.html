@@ -52,7 +52,8 @@
         const a = document.createElement("a");
         a.style.display = "none";
         a.href = result;
-        a.download = "ddd.pdf";
+        // download属性myPic.pdf/myPic/myPic.png => 下载均为myPic.jpg
+        a.download = "myPic.png";
         document.body.appendChild(a);
         a.click();
       };
