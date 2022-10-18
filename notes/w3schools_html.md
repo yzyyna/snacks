@@ -29,3 +29,10 @@ The <br> tag defines a line break, and is an empty element without a closing tag
 ### HTML is Not Case Sensitive
 
 HTML tags are not case sensitive: &lt;P&gt; means the same as &lt;p&gt;.The HTML standard does not require lowercase tags, but W3C recommends lowercase in HTML, and demands lowercase for stricter document types like XHTML.
+
+## HTML Attributes
+
+- All HTML elements can have attributes
+- Attributes provide additional information about elements
+- Attributes are always specified in the start tag
+- Attributes usually come in name/value pairs like: name="value"
