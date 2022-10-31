@@ -36,3 +36,17 @@ HTML tags are not case sensitive: &lt;P&gt; means the same as &lt;p&gt;.The HTML
 - Attributes provide additional information about elements
 - Attributes are always specified in the start tag
 - Attributes usually come in name/value pairs like: name="value"
+
+### We Suggest: Always Quote Attribute Values
+
+The HTML standard does not require quotes around attribute values.
+
+However, W3C recommends quotes in HTML, and demands quotes for stricter document types like XHTML.
+
+```html
+<!-- good -->
+<a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+<!-- bad -->
+<a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>
+
+```
