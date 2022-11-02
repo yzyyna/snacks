@@ -50,3 +50,23 @@ However, W3C recommends quotes in HTML, and demands quotes for stricter document
 <a href=https://www.w3schools.com/html/>Visit our HTML tutorial</a>
 
 ```
+
+### Single or Double Quotes?
+
+Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+
+In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
+
+```html
+<p title='John "ShotGun" Nelson'></p>
+<!-- or -->
+<p title="John 'ShotGun' Nelson"></p>
+```
+
+## HTML Headings
+
+### HTML Headings
+
+HTML headings are defined with the `<h1>` to `<h6>` tags.
+
+`<h1>` defines the most important heading. `<h6>` defines the least important heading.
