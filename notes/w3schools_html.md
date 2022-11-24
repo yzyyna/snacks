@@ -204,3 +204,97 @@ The text inside a `<pre>` element is displayed in a **fixed-width font** (usuall
 
   Oh, bring back my Bonnie to me.
 </pre>
+
+## HTML style
+
+### HTML style
+
+The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+
+### The HTML Style Attribute
+
+The HTML style attribute has the following syntax:
+
+```html
+<tagname style="property:value;"></tagname>
+```
+
+The property is a CSS property. The value is a CSS value.
+
+### Background Color
+
+The CSS background-color property defines the background color for an HTML element.
+
+```html
+<body>
+  <h1 style="background-color:powderblue;">This is a heading</h1>
+  <p style="background-color:tomato;">This is a paragraph.</p>
+</body>
+```
+
+### Text Color
+
+The CSS color property defines the text color for an HTML element:
+
+```html
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+```
+
+### Fonts
+
+The CSS font-family property defines the font to be used for an HTML element:
+
+```html
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+```
+
+### Text Size
+
+The CSS font-size property defines the text size for an HTML element:
+
+```html
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+```
+
+### Text Alignment
+
+The CSS text-align property defines the horizontal text alignment for an HTML element:
+
+```html
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+```
+
+## HTML Text Formatting
+
+HTML contains several elements for defining text with a special meaning.
+
+### HTML Formatting Elements
+
+Formatting elements were designed to display special types of text:
+
+- `<b>` - Bold text
+- `<strong>` - Important text
+- `<i>` - Italic text
+- `<em>` - Emphasized text
+- `<mark>` - Marked text
+- `<small>` - Smaller text
+- `<del>` - Deleted text
+- `<ins>` - Inserted text
+- `<sub>`- Subscript text
+- `<sup>` - Superscript text
+
+### HTML `<b>` and `<strong>` Elements
+
+The HTML `<b>` element defines bold text, without any extra importance.
+
+`<b>This text is bold</b>`
+
+<b>This text is bold</b>
+
+`<strong>This text is important!</strong> `
+
+<strong>This text is important!</strong>
