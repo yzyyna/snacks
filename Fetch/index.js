@@ -30,6 +30,7 @@ const onLoad = function (pe) {
 
 var xhr = new XMLHttpRequest();
 xhr.addEventListener("load", onLoad);
+// TODO 测试后端 api 
 xhr.open(
   "GET",
   "https://elm.cangdu.org/v1/pois?city_id=1&keyword=迪士尼&type=search"
