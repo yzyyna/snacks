@@ -7,7 +7,7 @@ fetch("https://elm.cangdu.org/v1/pois?city_id=1&keyword=迪士尼&type=search", 
     "Content-Type": "application/json",
   },
   mode: "cors",
-  cache: "force-cache",
+  cache: "force-cache", 
 })
   .then((result) => {
     console.log('%c ~ result ~ ', 'color:#2ecc71', result)
