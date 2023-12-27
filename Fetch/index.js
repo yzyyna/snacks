@@ -11,10 +11,10 @@ fetch("https://elm.cangdu.org/v1/pois?city_id=1&keyword=迪士尼&type=search", 
 })
   .then((result) => {
     console.log('%c ~ result ~ ', 'color:#2ecc71', result)
-    return 'yes';
+    return 'yes';  
   })
   .then((result) => {
-    console.log('%c ~ result ~ ', 'color:#2ecc71', result)
+    console.log('%c ~ result ~ ', ' color:#2ecc71', result)
     console.log(result);
   })
   .catch((reason) => {
