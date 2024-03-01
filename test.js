@@ -26,4 +26,4 @@ var res = obj.map(
   },
   { name: "thisthis" }
 );
-console.log("res:", res, Object);
+console.log("res::", res, Object);
