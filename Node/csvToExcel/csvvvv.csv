@@ -1,0 +1,1713 @@
+中文,英文
+未处理,untreated
+待处理,Follow up
+处理中,Processing
+提交,submit
+返回,Back
+返回首页,Back to home page
+退出登录,Log out
+全屏,Full screen
+关闭,Turn off
+保存并返回,Save and return
+添加,add
+已添加,Already add
+选中,Seleced
+移除,Remove
+恢复,Renew
+保存,save
+编辑,edit
+删除,delete
+取消,Cancel
+查看,Check
+搜索,search
+重置,reset
+筛选,Filter
+清空筛选,Clear filter
+查 询,query
+暂无数据,No data available
+确认关闭?,Confirm close
+数据加载中...,Data loading...
+数据加载中，请稍后...,"Data loading, please wait..."
+地图加载中，请您稍候...,"The map is loading, please wait..."
+全部,All
+运行,Run
+故障,Fault
+警告,Warning
+停机,Stop
+离线,Offline
+所有,All
+开始日期,Start date
+结束日期,End date
+开始时间,Start time
+结束时间,End time
+至,to
+选择日期,Select date
+选择日期时间,Select date time
+序号,Serial No.
+操作,operation
+米,meter.
+纬度,latitude
+经度,longitude
+点击刷新页面,Click Refresh page
+XX天后到期,Due in XX days
+已到期,Have expired
+操作提示,Operation prompt
+操作成功！,operation success
+提示,Tips
+是否需要重新获取数据？,Need to retrieve the data again?
+重新获取数据成功！,Retrieved data successfully!
+删除提示,Delete prompt
+此操作将导致数据无法恢复，请谨慎操作!,"This operation will cause data to be unrecoverable, please operate with caution!"
+是否确认删除数据？,Are you sure you want to delete the data?
+删除成功!,Deleted successfully!
+删除失败!,Delete failed!
+已取消删除,undeleted
+是,Yes
+否,No
+图片预览,Picture preview
+下载,Download
+预览,Preview
+下载模板,Download stencil
+下载文件,Download file
+发动机,Engine
+发电机,Generator
+发电,Power generation
+市电,Mains
+负载,Load
+相电压,Phase voltage
+线电压,Line voltage
+ADC电压,ADC voltage
+海拔高度,Altitude
+海拔,Altitude
+温度,Temperature
+风阻,Wind drag
+充电机电压,Charger voltage
+绝对时间,Absolute time
+运行时间,Run time
+机油温度,Oil Temperature
+功率,
+时间,
+转速,
+数量,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+未分类,Not classified
+主用,Main unit
+调峰,Peaking unit
+备用,Standby unit
+智能装备动力服务租赁平台,Intelligent Equipment Power Service Rental Platform
+请输入公司ID,Please enter the company ID
+请输入用户名称,Please enter the user name
+请输入登录密码,Please enter your login password
+登录,Log in
+,
+首页,home page
+机组群监控,Genset group monitoring
+项目管理,project management
+项目列表,project list
+项目监控,project monitoring
+项目详情,project details
+项目机组,project gensets
+控制器配置,Controller configuration
+工程管理,engineering management
+完工记录,Completion Record
+项目工程进度,Project Engineering Progress
+单机工程进度,Single engine engineering progress
+设备管理,Device management
+机组信息,Genset information
+机组信息详情,Genset information details
+机组配置,Genset configuration
+机组报告,Genset report
+查看报告详情,Check report details
+机组分布,Genset distribution
+机组监控,Genset monitoring
+机组防盗,Genset anti-theft
+机组轨迹,Genset track
+数据记录,Data record
+操作记录,Operation records
+报警曲线记录,Alarm curve recording
+一键报修记录,One click repair record
+启动曲线记录,Start curve recording
+查看曲线详情,Check curve details
+运行记录,Operation records
+报警历史,Alarm history
+上线记录,Online Record
+发电量统计,Power generating calculation
+历史曲线,
+燃油记录,
+历史记录,History Data
+机组履历,Genset Resume
+固定资产管理,
+运维管理,
+远程调参,Remote configuration
+远程调参-调参历史,
+远程调参-调参操作,
+劣化分析,Degradation Analysis
+租赁机组,
+机组云通讯,Cloud Service
+维保监控,
+电能质量监控,
+用户反馈,
+工单详情,
+运维图,
+日运维图,
+周运维图,
+远程解锁机,Remote unlock
+云消息推送,Send Cloud message
+资源管理,
+服务商管理,
+备件管理,
+系统设置,
+协议管理,
+维保策略,
+新增维保策略,
+查看维保策略,
+权限管理,
+组织架构管理,
+人员管理,
+功能权限管理,
+数据权限管理,
+广告位管理,
+app端广告位,
+小程序广告位,
+,
+实时监控,
+实时监控事项,
+运行报警,
+周期维保,
+环境风险,
+自动维保,
+警告,
+故障,
+维保,
+备注,
+自动补换机油周期情况,
+,
+帮助中心,Help center
+点击打开帮助中心,Click to open the Help Center
+添加新文档,Add new document
+编辑文档,Edit document
+是否确认删除该文档?,Do you want to delete the document?
+该文档已删除,This document has been deleted
+上架,listing
+是否确认上架该文档?,Do you want to upload this document?
+该文档已上架,The document is available
+下架,delist
+是否确认下架该文档?,Do you want to remove the document?
+该文档已下架,This document has been removed
+"当前页面无帮助文档,请添加文档","There is no help document on the current page, please add a document"
+所属页面,Owning page
+请选择所属页面,Please select a page
+文档名称,Document name
+请填写文档名称,Please fill in the document name
+请输入十字以内标题,
+文档内容,Document content
+请填写文档内容,Please fill in the document
+提交成功,Submit successfully
+"该文档标题已存在,请检查!","The document title already exists, please check!"
+,
+账户信息,Account information
+账号设置,Account setting
+所在部门,department
+本次登录时间,Time of this login
+登陆地区,Landing area
+上次登录时间,Last login time
+用户名,username
+请输入用户名,Please enter your username
+原密码,Old password
+请输入原密码,Please enter the old password
+新密码,New password
+请输入新密码,Please enter your new password
+长度在 6 到 8 个字符,6 to 8 characters in length
+确认密码,Confirm password
+请再次输入新密码,Please enter your new password again
+两次输入的密码不一致,The two passwords are different
+,
+项目总览,Project Overview
+机组总数,Genset Number
+运维机组数,O&M Genset Number
+代运维机组数,Outsourced O&M Genset Number
+项目总数,Project Number
+项目架构,Project Architecture
+架构详情,Architecture details
+机组状态,Genset status
+运行,Run
+故障,Fault
+风险,Risky
+停机,Shutdown
+离线,Offline
+,
+维保,Maintenance
+租赁中,Renting
+施工,Construct
+待租赁,For Rent
+维修,Repair
+智能装备全球辐射图,Global radiation map of intelligent equipment
+智能装备中国分布图,Chinese distribution map of intelligent equipment
+点击返回智能装备全球辐射图,Click to return to the global radiation map of intelligent equipment
+点击恢复初始状态,Click to restore the initial state
+点击全屏展示地图,Click to display the map in full screen
+机组分类,Genset classification
+租赁中机组运行状态,Operating status of leased Gensets
+检修,Maintenance
+正常,Normal
+已暂停自动展播,Auto broadcast paused
+已开始自动展播,Auto broadcast started
+XX S后将自动展示智能装备中国分布图,"After XX S, Chinese distribution map of intelligent equipment will be automatically displayed"
+已停止自动展播,
+点击开始自动展播,
+点击暂停展播,
+点击立即跳转,
+全球智能装备数量Top10,
+中国各省,Provinces of China
+智能装备数量Top15,
+数据详情,
+所属项目,
+客户反馈,
+全部反馈,
+点击查看详情,Click for details
+客户反馈详情,Customer feedback Details
+发送,send
+字数不超过100个字符,No more than 100 characters
+文本,text
+图片,picture
+维保提示与报警实时监控,
+设备与报警实时监控,
+环境风险提示与报警实时监控,
+待受理,
+处理中,Processing
+已完成,Done
+点击跳转到维保监控页面,Click to switch to the "Maintenance monitoring" page
+点击跳转到项目监控页面,Click to jump to the "Project monitoring" page
+点击跳转到机组监控页面,Click to jump to the "Unit monitoring" page
+,
+,
+运维,
+代运维,Managed operation and maintenance
+准备中,
+进行中,Processing
+已完成,Done
+实时报警,
+保养提醒,Maintenance Alert
+项目名称,Project name
+请输入项目名称,Please enter a project name
+项目类型,Item type
+请选择项目类型,Please select the project type
+项目状态,Project status
+请选择项目状态,Please select project status
+项目地址,
+项目生效时间,
+项目创建时间,
+项目编号,
+功率需求,
+机组数量,
+项目开始时间,
+项目结束时间,
+到期剩余时间,
+新建项目,New project
+即将到期项目,Expiring item
+开启项目,Open project
+完结项目,Completed project
+确定开启项目 “XXX” 吗？,Are you sure to open project "XXX"?
+开启操作不可取消，请谨慎操作。,The enable operation cannot be canceled.  Exercise caution when performing this operation.
+确定完结项目 “XXX” 吗？,Is the completion project "XXX" confirmed?
+完结后，项目相关信息将不再支持编辑，操作不可取消，请谨慎操作。,
+项目信息,
+项目机组,
+项目监控,
+工程管理,
+完工记录,
+数据记录,
+选择项目,
+当前项目状态下无项目数据,
+项目列表,
+请选择项目,
+切换项目,
+项目机组功率（kW）,
+项目机组数量（台）,
+基本信息,
+参数配置,
+合同文件,
+项目人员,
+项目机组,
+机组群设置,
+并机组配置,
+新增项目,New item
+编辑项目,Edit item
+新建项目成功!,New project success!
+新建项目失败，请重新提交!,"New project failed, please resubmit!"
+编辑项目成功!,Edit project successful!
+编辑项目失败，请重新提交!,"Edit project failed, please resubmit!"
+项目名称,
+项目编号,
+项目类型,
+项目地址,
+项目起止时间,
+功率需求,
+租赁台数,
+项目租金,
+创建时间,
+合同状态,
+中国,China
+全球,global
+台,-
+元,RMB
+请输入项目名称,Please enter a project name
+请输入项目编号,Please enter the project number
+请选择项目类型,Please select the project type
+请输入详细地址,Please enter the full address
+请选择项目起止时间,Please select a start and end time for the project
+请输入项目功率需求,Please enter project power requirements
+请输入租赁台数,Please enter the number of rental units
+请输入项目租金,Please enter the project rent
+长度不超过 15 个字符,The length cannot exceed 15 characters
+长度不超过 20 个字符,The length cannot exceed 20 characters
+"限制整数位不超过6位,小数点不超过2位",Limit integers to no more than 6 digits and decimal points to no more than 2 digits
+仅可输入不超过两位数的非零正整数,Only non-zero positive integers with no more than two digits can be entered
+"限制整数位不超过8位,小数点不超过2位",Limit integers to no more than 8 digits and decimal points to no more than 2 digits
+编辑参数,
+远程服务次数(次),
+现场故障服务(次),
+现场维保服务(次),
+现场故障完成次数(次),
+现场维保完成次数(次),
+允许超限功率时间阈值(h),
+允许超合同功率时间阈值(h),
+启动电瓶跌落最大电压限制(V),
+启动成功最长时间限制(S),
+远程服务次数,
+现场故障服务次数,
+现场维保服务次数,
+现场故障完成次数,
+现场维保完成次数,
+允许超限功率时间阈值,
+允许超合同功率时间阈值,
+启动电瓶跌落最大电压限制,
+启动成功最长时间限制,
+请输入远程服务次数,
+请输入现场故障服务次数,
+请输入现场维保服务次数,
+请输入现场故障完成次数,
+请输入现场维保完成次数,
+请输入允许超限功率时间,
+请输入允许超合同功率时间,
+请输入启动电瓶跌落最大电压,
+请输入启动成功最长时间,
+仅可输入不超过四位数的整数,
+"限制整数位不超过3位,小数点不超过1位",
+上传文件,Upload file
+上传合同文件,Upload contract file
+文件类型,File type
+文件上传,File upload
+文件名称,File name
+备注,remark
+请选择文件类型,
+请选择文件,
+请输入文件名称,
+请输入备注,
+长度不超过 15 个字符,
+选取文件,
+(支持不超过10M的.doc、docx、xls、xlsx、pdf、rar、zip、jpg、jpge、png文件；最多上传10个文件),
+上传文件个数不能超过3个,A maximum of three files can be uploaded
+上传文件格式有误,The uploaded file format is incorrect
+上传文件大小不能超过 10MB!,Upload file size cannot exceed 10MB!
+文件上传成功!,File upload successful!
+文件上传失败，请重新提交!,"File upload failed, please resubmit!"
+合同文件查看,
+文件备注,Document remarks
+文件列表,File list
+删除文件,Delete file
+确定删除当前文件吗？,Are you sure to delete the current file?
+删除文件成功!,Deleted file successfully!
+删除文件失败，请重新尝试!,"Failed to delete the file, please try again!"
+上传时间,Upload time
+上传人,uplink
+文件大小,File size
+添加人员,Add personnel
+编辑人员,Editorial staff
+商务,
+技术,Technology
+群监控用户,Group onitoring user
+添加用户成功,Adding a user succeeded
+添加用户失败，请重新提交!,"Failed to add user, please resubmit!"
+编辑用户成功,Edit user successfully
+编辑用户失败，请重新提交!,"Edit user failed, please resubmit!"
+删除人员,Deletion of personnel
+确定删除当前项目人员吗？,Are you sure to delete the current project staff?
+删除人员成功!,Personnel deleted successfully!
+删除人员失败，请重新尝试!,"Failed to delete personnel, please try again!"
+公司类型,Type of company
+公司名称,Company name
+人员类型,Personnel type
+负责人,Person in charge
+负责人电话,Person in charge telephone
+请选择公司类型,Please select a company type
+请选择公司,Please select Company
+请选择人员类型,Please select a person type
+请选择负责人,Please select responsible person
+添加机组,
+移除机组,
+维保策略,Maintenance strategy
+电子围栏,Electronic fence
+控制器配置,Controller configuration
+工程进度,Project progress
+修改围栏,Modified fence
+已配置,Configured
+未配置,Unconfigured
+已开启,Enabled
+未开启,Unenabled
+全部可选机组,All selectable units 
+已选择机组,Selected units
+机组位置,Unit location
+发动机型号,Engine model
+功率,Power
+请选择机组位置,Please select unit location
+请输入发动机型号,Input engine model
+最低功率,Minimum power
+最高功率,Maximum power
+添加机组成功!,Adding a group succeeded!
+添加机组失败，请重新提交!,"Failed to add the group, please resubmit!"
+移除机组成功!,Unit removal successful!
+移除机组失败，请重新尝试!,"Failed to remove the unit, please try again!"
+确定从当前项目移除 XX机组 吗？,Are you sure to remove Unit XX from the current project?
+机组配置,Gen-set configuration
+修改电子围栏设置,Modify the electronic fence Settings
+围栏中心,Fence center
+围栏半径,Fence radius
+请输入中心点经度,Please input the center longitude
+请输入中心点纬度,Please input the center latitude
+请输入围栏半径,Please input the fence radius
+关闭电子围栏,Turn off the electronic fence
+确定关闭当前机组电子围栏吗？,Are you sure to close the current unit electronic fence?
+机组名称,Unit name
+标识,Logo
+发动机型号,Engine model
+运行时间,Running time
+机组位置,Unit location
+是否主用,Main/Standby
+合同功率,Contract power
+限制功率,Limited power
+额定功率,Rated power
+备用功率,Standby power
+实时功率,Realtime power
+是否并机,Synchronization/No
+机组配置情况,Gen-set configuration
+新建并机,new
+解除并机,relieve
+添加为主机,Add as host
+添加为分机,Add as extension
+添加并机组,Adding and combining unit
+编辑并机组,Editing and combining unit
+当前项目全部机组,Current project all units
+当前并机组,Current parallel unit
+并机组主机,Parallel main engine
+并机组分机,Parallel generator
+当前总功率,Current total power
+并机组只能设置一个主机！,Only one host can be set up in the parallel group!
+并机组必须设置一个主机！,And the unit must set up a host!
+并机组必须设置一个分机！,The parallel unit must set up an extension!
+添加并机组成功!,Add and combine group successfully!
+添加并机组失败，请重新提交!,"Failed to add and combine the group, please resubmit!"
+编辑并机组成功!,Edit and set successful!
+编辑并机组失败，请重新提交!,"Failed to edit and combine the group, please resubmit!"
+解除并机成功!,Successful deactivation!
+解除并机失败，请重新尝试!,"Deactivating parallel failed, please try again!"
+确定解除当前并机吗？,Are you sure to cancel the current parallel?
+解除后，相关并机将变更为'单机组'状态，仍存在于本项目。,"After the cancellation, the relevant parallel will be changed to the 'single unit' status and still exist in this project."
+并机组主机名称,Host name
+并机组分机名称,Extension name
+机组总数,Number of units
+并机组总功率,Combined unit total power
+新建群组,New group
+监控,Supervisory control
+详情,details
+确认删除,Confirm deletion
+确认保存,Confirm save
+机组群详情,Group details
+新建机组群,New unit group
+编辑机组群,Editing group
+请选择未成群机组,Please select non-group units
+机组群信息,Unit group information
+机组群名称,Group name
+机组群备注,Group remarks
+机组数量,Number of generator sets
+总额定功率,Total rated power
+支持机组名称/标识/发动机型号的关键字搜索,Support unit name/logo/engine type keyword search
+已添加 XX 台机组,XX units have been added
+是否确认删除?,Do you want to delete it?
+请填写机组群名称,Please fill in the group name
+请至少选择一台机组,Please select at least one unit
+更新时间,Update time
+更新人,Update person 
+机组名称与标识,Unit name and identification
+是否并机,Whether parallel
+工程进度管理,Project schedule management
+关联机组,Associated unit
+下一步,Next
+上一步,Previous
+返回列表,Return list
+工程进度,Project progress
+单机工程进度记录,Single machine project progress record
+工程进度记录查看,Project progress record view
+项目机组工程进度（整体）,Project unit engineering progress (overall)
+工程进度记录,Progress record
+项目工程进度记录,Project progress record
+工程进度记录新增,Project progress record added
+工程进度记录编辑,Project progress record editing
+第一步：关联机组,Step 1: Associate the units
+第二步：完善记录内容,Step 2: Improve the record content
+当前已选择,Currently selected
+删除记录,Delete record
+确定删除当前记录吗？,Are you sure to delete the current record? '
+删除记录成功!,Delete record successfully! '
+删除记录失败，请重新尝试!,"Failed to delete the record, please try again!"
+项目启动,Project start-up
+项目完工,End of project
+事件类型,Event type
+事件内容,Event content
+最后编辑时间,Last edit time
+操作人,operator
+整体记录数量,Total number of records
+事件记录数量,Number of event records
+单机记录数量,Number of records per unit
+限功率,Power limiting
+电子围栏开启情况,Electronic fence open condition
+维保策略录入情况,Maintenance policy input status
+费用明细,Expense detail
+费用汇总,Expense summary
+完工报告,Completion report
+运维报告,Operation report
+客户满意度,Customer satisfaction
+查看开支图片,View picture
+添加开支,append
+编辑开支,EDITOR
+点击查看,Click to view
+上传报告,Upload report
+重新上传,reupload
+开支类型,Expenditure type
+开支项目,Item of expenditure
+项目金额,Project amount
+开支说明,Instructions
+开支图片,picture
+请选择开支类型,Please select an expense type
+请选择开支项目,Please select expenses
+请输入项目金额,Please enter the item amount
+请输入开支说明,Please enter a description of expenses
+请选择文件,Please select file
+收入,Income
+支出,expenditure
+字数不超过50个字,No more than 50 words
+"限制整数位不超过8位,小数点不超过2位",Limit integers to no more than 8 digits and decimal points to no more than 2 digits
+（仅支持不超过5M的.jpg/jpge/png图片文件；最多上 传3张图片）,(Only.jpg/jpge/png image files up to 5M are supported; Upload up to 3 pictures)
+添加开支项目成功,Add expense item successfully
+添加开支项目失败，请重新提交!,"Failed to add expense item, please resubmit!"
+编辑开支项目成功,Edit the expense item successfully
+编辑开支项目失败，请重新提交!,"Edit expense item failed, please resubmit!"
+删除开支项目,Delete expenditure items
+确定删除当前开支项目吗？,Are you sure to delete current expenses?
+删除开支项目成功,Deleted expense item successfully
+删除开支项目失败，请重新提交!,"Failed to delete expense item, please resubmit!"
+项目总收入,Total project revenue
+项目总支出,Total project expenditure
+项目总金额,Total project amount
+项目笔数,Number of items
+完工报告,Completion report
+完成情况,Completion status
+修改人,modifier
+修改时间,Modification time
+待完成,To be completed
+已完成,completed
+文件类型错误,File type error
+上传文件大小不能超过 30MB!,Upload file size cannot exceed 30MB!
+上传报告成功,Upload report successfully
+重新上传报告成功,Uploading the report succeeded. Procedure
+发电量统计,Energy generation statistics
+供电机组,Power supply unit
+累计运行时间,Cumulative running time
+累计发电量,Cumulative power generation
+合计发电量,Total power generation
+本月,This month
+前一周,last week
+前半个月,first half of the month
+前一个月,last month
+监控概况,Monitoring overview
+配件库存,Spare parts inventory
+项目开始时间,Project start time
+项目结束时间,Project end time
+当前日期,Current date
+距离项目结束 XX 天,XX days from the end of the project
+机组总数,Total number of generator sets
+并机台数,Number of parallel machines
+单机台数,Number of units
+合闸总数,Total number of closing
+主用台数,Number of main stations
+备用台数,Number of spare units
+实时报警,Real-time alarm
+故障报修,Fault repair
+维保&点检,Maintenance & inspection
+未来30日运维机组,Units requiring operation and maintenance in the next 30 days
+维保点检,Maintenance point inspection
+通信到期,Communication expiration
+下次自动维保时间,Next automatic maintenance time
+可靠性指标,Reliability index
+机组寿命指标,Unit life index
+人工成本指标,Labor cost index
+经济性指标,Economic index
+项目参数,Item parameter
+供电故障次数,Power supply failure times
+设备故障次数,Number of equipment failures
+超限制功率时间,Over limit power time
+启动电瓶电压跌落,Starting battery voltage drop
+启动成功时间,Startup success time
+最大负荷强度,Maximum load intensity
+超限制功率报警次数,The number of times the power limit is exceeded
+项目平均负荷,Average project load
+维保完成率,Maintain the completion rate
+水温高报警次数,High water temperature alarm times
+云服务替代率,Cloud service replacement rate
+故障远程服务次数,Number of remote service failures
+维保远程服务次数,Maintain the number of remote services
+现场故障服务次数,Number of service failures on site
+现场维保服务次数,Number of on-site maintenance services
+项目燃油能耗,Project fuel consumption
+项目总燃油用量,Total project fuel consumption
+项目燃气能耗,Project gas energy consumption
+项目总燃气用量,Total gas consumption of the project
+项目总发电量,Total project power generation
+超合同功率时间,Over contract power time
+允许超限功率时间阈值,Allows the power time threshold to be exceeded
+允许超合同功率时间阈值,Allowed to exceed the contract power time threshold
+启动电瓶跌落最大电压限制,Starting battery drop maximum voltage limit
+启动成功最长时间限制,The maximum time limit for successful startup
+"单机组,并机组","Single unit, parallel unit"
+"总实时功率,总限制功率","Total real-time power, total limited power"
+温馨提示：鼠标移入下方并机区域后按住键盘shift键同时向下滚动鼠标滚轮即可查看更多并机机组,"Tips: After moving the mouse to the lower parallel area, hold down the keyboard shift key and scroll down the mouse wheel to see more parallel units"
+柴油机,Diesel engine
+燃气机,Gas engine
+主用,primary
+备用,standby
+磨合期,Breaking-in period
+健康期,Health period
+老化期,Aging period
+延寿期,Life extension
+合闸,Switching on
+分闸,switching
+XX 天后通信到期,Communication expires after XX days
+已到期 XX 天,It has expired XX days
+无通信期限,No communication period
+可用,usable
+不可用,Not available
+点击进入机组监控页面,Click to enter the unit monitoring page
+点击进入维保监控页面,Click to enter the maintenance monitoring page
+当前实时报警,Current real-time alarm
+"维保,当前维保提醒","Maintenance, current maintenance alert"
+离线信息,Off-line message
+离线时间,Off-line time
+通信到期日期,Communication due date
+最后电瓶电压,Last battery voltage
+最后信号强度,Final signal strength
+"使用流量,总流量","Usage traffic, total traffic"
+最后定位,Final positioning
+累计运行,Cumulative operation
+冷却水温,Cooling water temperature
+发电量,Generating capacity
+机油压力,Oil pressure
+燃油液位,Fuel level
+机油位,Oil level
+机油温度,Oil temperature
+电瓶电压,Battery voltage
+缸1,Cylinder 1
+缸2,Cylinder 2
+缸3,Cylinder 3
+缸4,Cylinder 4
+缸5,Cylinder 5
+缸6,Cylinder 6
+进气压力,Intake pressure
+进气口温度,Air intake temperature
+进气歧管压力,Intake manifold pressure
+进气歧管温度,Intake manifold temperature
+排气口温度,Exhaust port temperature
+排气氧气,Exhaust oxygen
+节气门开度,Throttle opening
+涡轮压力,Turbine pressure
+节气门执行器,Throttle actuator
+节流阀位置,Throttle position
+PTO状态,PTO status
+ECU状态,ECU status
+请求转数范围,Range of revolutions requested
+请求扭矩范围,Requested torque range
+实时负荷率,Real-time load rate
+负荷强度,Load intensity
+平均负荷,Average load
+有功冲击负荷强度,
+无功冲击负荷强度,Reactive impact load intensity
+超功率运行时长,Overpower running time
+低负荷运行时长,Low load operation time
+高负荷运行时长,High load operation time
+发电频率,Generating frequency
+相电压,Phase voltage
+线电压,Line voltage
+电流,Electric current
+GOV输出百分比,GOV output percentage
+AVR输出百分比,AVR output percentage
+频率差,Frequency difference
+电压差,Voltage difference
+相位差,Phase difference
+燃气用量,Gas consumption
+燃气能耗,Gas energy consumption
+燃油用量,Fuel consumption
+燃油消耗,Fuel consumption
+环境温度,Ambient temperature
+海拔高度,altitude
+大气压力,Atmospheric pressure
+查看更多,See more
+展开查看更多,Expand to see more
+收起,Pack up
+机组监控,Generator set monitoring
+维保监控,maintenance monitoring
+切换机组群,Switch group
+选择机组群,Select group
+项目列表,List of items
+机组群列表,List of groups
+请选择项目,Please select project
+请选择机组群,Please select Group
+获取项目列表信息失败，请检查网络！,"Failed to get item list information, please check the network!"
+获取机组群列表信息失败，请检查网络！,"Failed to obtain the group list information, please check the network!"
+设备故障次数,Number of equipment failures
+供电故障次数,Power supply failures
+支持故障描述/确认人的关键字搜索,Supports search by keyword for fault description or confirmation person
+故障时间,Failure time
+处理结果,Processing result
+添加供电故障记录,Add a power supply fault record
+故障详情,Fault details
+新增供电故障信息,Added power supply fault information
+编辑供电故障信息,Edit power supply fault information
+查看供电故障详情,View details about power supply faults
+供电故障描述,Power supply fault Description
+供电故障时间,Power supply fault time
+故障处理结果,Troubleshooting result
+故障确认人,Fault confirmation person
+备注,Remarks
+已选择 XX 条记录,XX records have been selected
+是否确认删除该记录?,Do you want to delete this record?
+,
+,
+,
+,
+,
+,
+,
+筛选,Filter
+类型,type
+至,
+索引值,
+试验类型,Test type
+创建时间,Creation time
+查看曲线,View curve
+删除,delete
+请确保结束日期在开始日期之后,Make sure the end date is after the start date
+机组信息，机组配置,"Gen-set Info.,Gen-set configuration"
+电能质量监控,Power quality monitoring
+劣化分析,Deterioration analysis
+数据每隔3秒更新一次,The data is updated every 3 seconds
+数据最近更新时间,Data last updated
+机组浏览足迹,
+累计运行时长,Cumulative running time
+当前位置,
+若退出账号或清理浏览器缓存，浏览足迹将被清空,"If you log out of the account or clear the browser cache, the browsing footprint will be cleared"
+暂无记录！,No record yet!
+,
+限功标定,Power limiting calibration
+可靠性标定,Reliability calibration
+维保配置,Maintenance configuration
+数据重置,Data reset
+全部机组,
+机组名称,
+机组状态,Generator set status
+安装地点,Installation site
+经纬度,Longitude and latitude
+机组编码搜索,
+机组位置筛选,Unit location screening
+请输入机组编码,
+请选择机组所在位置,Please select the location of the unit
+机组信息,
+机组报告,Generator set report
+基本信息,Basic Infor.
+机组名称,Genset Name
+云猫标识,Cloud module Logo
+经度,Longitude
+纬度,Latitude
+安装地点,Install Place
+曲线,Curve Data
+有人值守,Guarded
+机组信息,Gen-set Info.
+出厂编号,Mfg N.O
+品牌,Brand
+型号,Model
+规格,Specification
+生产厂家,Manufacturer
+生产日期,Mfg Date
+备注,Remark
+额定转速,Rated speed
+额定频率,Rated Frequency
+额定电流,Rated Current
+额定功率,Rated Power
+额定电压,Rated Voltage
+视在功率,Apparent Power
+功率因数,Power Factor
+机组照片,Gen-set picture
+维保信息,MaintenanceMaintenance Info. Info.
+客户编号，客户公司,Customer ID
+设备归属公司,Device owner(Company)
+设备责任人，责任人联系电话,Device owner，Owner contact
+维保公司,Maintenance Company
+维保联系人，联系人电话,Contact Person，Contact Tel
+控制器信息,Controller Info.
+控制器类型,Controller Type
+是否可以控制,IsControl
+供电系统,Power system
+可编程传感器 1,Programmable sensor 1
+发动机信息,Engine Infor.
+发电机信息,Alternator Info.
+采集器信息,Collector Info.
+通讯协议状态,Communication protocol status
+通讯说明,Communication specification
+易耗配件材料统计,Consumable Statistics
+巡检卡号,Inspection N.O 
+防冻液容量,Antifreeze L 
+机油容量,Oil L
+空气滤清器型号,Air filter model
+个数,Quantity
+机油滤清器型号,Oil filter model
+机油旁滤清器型号,Oil pan filter model
+柴油滤清器型号,Fuel filter model
+基站信息,Base Station Infor
+基站名称,Base station name
+基站编号,Base station serial N.O
+基站地点,Base station location
+机组信息,Gen-set Info.
+机组履历,Resume
+机组关重件,Genset Part
+可编程传感器,Programmable sensor
+显示名,Name
+AMF模块,AMF Module
+已完成,completed
+待下发,To be sent
+下发中,sending
+通讯正常,communication normal
+添加机组履历,Add Resume
+编辑机组履历,Edit Resume
+添加机组关重件,Add Genset Part
+描述,Content
+文件上传,File
+选取文件,Choose File
+关重件,Genset Part
+出厂试验报告,Factory Test Report
+交付试验报告,Delivery Test Report
+起动可靠性分析报告,Starting Eeliability Report
+功率时间矩阵分析报告,Power Time Matrix Report
+运行报告,Run Report
+运行可靠性报告,Operational Reliability Report
+索引值,Index
+试验类型,Test type
+创建时间,Creation time
+查看报告,Examine Report
+删除,Delet
+数据来源,Data sources
+机组信息获取,Acquire gen-set Info
+手动输入,Manual input
+发电机组功率时间矩阵分析报表,Matrix analysis report of power time
+3D矩阵,3-D matrix
+二维矩阵,2-D matrix
+发动机序列号,Engine serial No.
+发动机型号,Engine model
+发动机品牌,Engine brand
+发动机ECU型号,Engine ECU model
+电机序列号,Alternator serial No.
+电机型号,Alternator model
+电机品牌,Alternator brand
+AVR型号,AVR model
+控制器序列号,Controller serial No.
+控制器型号,Controller model
+控制器品牌,Controller brand
+云猫标识,Cloud module Logo
+额定转速,Rated RPM
+额定功率,Rated Power
+额定频率,Rated Frequency
+视在功率,Apparent Power
+额定电压,Rated Voltage
+额定电流,Rated Current
+功率因数,Power Factor
+限制功率,Limit power
+环境温度,Environment temperature
+大气压力,Atmosphere pressure
+海拔高度,Altitude
+测试时间,Testing time
+发电机组功率时间矩阵分析报表,Matrix analysis report of power time
+机组运行报告,Genset Run report
+机组可靠性运行报告,Genset Operational Reliability Report
+机组名称,Genset Name
+云猫标识,Cloud module Logo
+品牌,Brand
+出厂编号,Mfg N.O
+发动机,Engine
+发电机,Alternator
+采集器,Collector
+控制器,Controller
+累计发电量,Cumulative Power Generation
+累计运行时间,Cumulative Running Time
+发电量,Power Generation
+运行时间,Running Time
+次数,Times
+停机类报警,Shutdown Alarm
+警告类报警,Warning Alarm
+次,Times
+发电机组起动可靠性趋势分析报表,Tendency analysis report of gen-set starting reliability
+电池电压,Battery Voltage
+水温,Water Temperature
+油压,Water Temperature
+燃油位,Fuel level
+蓄电池1起动电压跌落,Battery 1 Start Voltage Drop
+蓄电池2起动电压跌落,Battery 2 Start Voltage Drop
+起动成功时间,Start Success Time
+电压跌落,Timestamp
+,
+地图模式,
+架构模式,
+机组名称,Name of generator set
+机组状态,Generator set status
+公司名称,Company name
+请输入机组名称,
+请选择机组状态,Please select the unit status
+请输入公司名称,Please enter the company name
+在线,
+,
+上次采样时间,Last sampling time
+最新运行记录,Latest running record
+打开全屏页面,Full screen
+实时报警,Real-Time Alarm
+控制,Control
+停机,Stop
+手动,Mannual
+自动,Auto
+报警复位,Reset
+启动,Start
+您确定按下此按钮吗,Are you sure to press this button
+机组图片,Gen-set picture
+机组视频,Gen-set video
+持续未发电时长,Period of continuous non generation
+总流量(月),Total Flow (Month)
+已用流量,Used Flow
+开机次数,Start times
+发电量统计,Power generating calculation
+机组全屏监控,Full screen
+当前时间,Current time
+监控设置,
+滚动,
+间隔,
+状态,
+请输入发电机组名称,Input Generator Name
+机组列表,Genset List
+机组定位,GPS
+燃油曲线,
+电子围栏,Electronic fence
+开启,Open
+关闭,Close
+修改,edit
+返回机组当前位置,Return to the current position of the unit
+设置电子围栏,Set up electronic fence
+当前半径,Current radius
+是否确定关闭电子围栏？,Are you sure to close the electronic fence?
+选择日期,Select date
+选择结束时间,Select end time
+暂无机组轨迹,There is no record of position movement of the generator set
+开始日期必须在结束时间之前！请检查。,The start date must be before the end time! Please check.
+类型,type
+操作人,operator
+操作时间,Operating time
+机组名称,Unit name
+开始时间,Start time
+结束时间,End time
+持续时间,duration
+发电kWh,
+查看记录曲线,View log curve
+报警时间,Alarm time
+报警名称,Alarm name
+内容,
+类型,Type
+全部,All
+警告,Warning
+停机,stop
+机组关重件,Genset Part
+机组长时限制功率,
+机组长时限制时间（24h）,
+开启限功率进风阻力大上限,
+进风阻力大限制功率（KW）,
+开启限功率环境温度高上限,
+环境温度高限制功率（KW）,Ambient temperature High Limited power (KW)
+开启限功率水温高上限,Turn on the upper limit of power limit water temperature
+水温高限制功率（KW）,High water temperature Limited power (KW)
+开启限功率海拔高上限,Enable the power limit altitude upper limit
+海拔高限制功率（KW）,Altitude limited power (KW)
+环境温度高限制功率提醒阀值,High ambient temperature limit power warning threshold
+水温高限制功率提醒阀值,High water temperature limits the power warning threshold
+海拔高限制功率1提醒阀值,High altitude limit power 1 Alert threshold
+海拔过高限制功率2提醒阀值,High altitude limit power 2 Alert threshold
+进风阻力高限制功率延迟,High inlet resistance limits power delay
+环境温度限制功率延迟,Ambient temperature limits power delay
+水温高限制功率延迟,High water temperature limits power delay
+海拔高限制功率延迟,High altitude limits power delay
+额定转速(r/min),Rated RPM(r/min)
+额定频率(Hz),Rated Frequency(Hz)
+额定电流(A),Rated Current(A)
+额定功率(kW),Rated Power(kW)
+额定电压(V),Rated Voltage(V)
+视在功率(kVA),Apparent Power(kVA)
+功率因数,Power Factor
+,
+当,while
+机组长时,
+时限制功率,
+进风阻力,
+且,and
+延迟,
+环境温度,Environment temperature
+时进行提醒,
+水箱温度,Tank temperature
+写入中,writing
+读取中,reading
+读取失败,Read failure
+写入失败,Write failure
+保留整数,Reserved integer
+保留一位小数,Keep one decimal place
+保留两位小数,Keep two decimal places
+确认向控制器写入数据吗？,Are you sure to write data to the controller?
+维保策略配置,Configure maintenance policies
+基础配置,Basic configuration
+维保事项,Maintenance matters
+引用模板,Reference template
+运行时长(实际/策略),Run time (actual/policy)
+绝对时长(实际/策略),Absolute duration (practical/strategic)
+机组维保策略查询失败！,Query failed!
+未分类,Not classified
+主用A-3,Main unitA-3
+主用A-2,Main unitA-2
+主用A-1,Main unitA-1
+主用A-0,Main unitA-0
+调峰B-3,Peaking unitB-3
+调峰B-2,Peaking unitB-2
+调峰B-1,Peaking unitB-1
+调峰B-0,Peaking unitB-0
+备用C,Standby unitC
+备用C,Standby unitC
+备用C,Standby unitC
+备用C,Standby unitC
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+维保策略名称,Name of the maintenance policy
+策略主备分类,Policy main/standby category
+维保策略状态,Maintenance policy status
+发动机系列,Engine series
+策略主备分类,Strategy primary and backup classification
+策略主备状态,Strategy active and standby status
+最后编辑人,The final editor
+最后编辑时间,Last edit time
+上柴,
+潍柴,
+玉柴,
+备用机,Stand-by unit
+主用机,Host unit
+节拍时长,Time
+周期节拍个数,Number
+维保周期时长,Time
+维保周期个数,Number
+检修周期时长,Time
+维保策略(新),Maintenance Strategy (New)
+"您所做的更改可能未保存,是否确定返回？",The changes you made may not have been saved. Are you sure to return?
+请上传宽/高比例为2:1且小于5M的图片！,Please upload images with a width/height ratio of 2:1 and less than 5M!
+小程序,Small program
+首页轮播图,Home carousel pictures
+图片类型,Type of picture
+图片名称,Name of picture
+上传图片,Upload pictures
+缩略图,thumbnail
+排序,sort
+状态,status
+操作人,operator
+最后修改时间,Last modification time
+,
+,
+,
+,
+机组工作规律,Unit operation law
+启动可靠性,Start-up reliability
+维保节拍,Maintenance beat
+功率匹配,Matching power
+通过了解机组规律可以猜测客户工作时间规律，进行维保节拍、沟通等时间确认。,
+通过观察环境温度、气压信息，来评估对机组设备的启动影响。,
+查看油耗和进风过滤阻力对燃油、过滤器进行维保节拍了解。,
+了解某天内功率各个时段有功功率、无功功率情况，用于合同，限功、额定、备用等功率匹配。,
+通过发电有功功率展示该当前机组在一天中各个时间的工作情况，从而了解客户每天的用电情况，用电高峰期、用户稳定期等。,
+有功功率：单位KW。,Active power: Unit KW.
+进风过滤阻力：用于查看环境恶劣程度，通过查看阻力大小判断是否需要清洗滤网，如：阻力增大到88Pa，则需要进行清洗。,
+油耗：用于预测加油，通过观察油耗使用情况，可了解在一天何时进行加油处理。,
+查看客户负载情况，知晓客户负载使用情况，为客户精准匹配功率段，可以为超出合同功率部分提供收费证明。,
+合同功率(w1)：租赁项目立项时与客户约定的使用功率。,
+限功功率(w2)：设定机组在一个合理的功率范围内进行发电运行，以防超功率运行损坏装备。,
+额定功率(w3)：机组出厂的额定功率。,
+备用功率(w4)：机组可以达到的最大功率值。,
+有功功率：有功功率是指单位时间内实际发出或消耗的交流电能量，是周期内的平均功率。查看有功负载情况。,
+无功功率：客户设备端电动机负载情况。,
+有功功率,Active Power
+发动机转速,Engine speed
+环境温度,Environment temperature
+水温,Water Temperature
+油耗,Oil consumption
+进风过滤阻力,Intake air filtration resistance
+无功功率,Reactive power
+谐波分析总谐波畸变率,Harmonic analysis Total harmonic distortion rate
+请输入产品名称,Please enter the product name
+请输入产品编号,Please enter the product number
+请输入联系人,Please enter contact person
+请输入联系电话,Please enter a contact number
+请输入服务地址,Please enter the service address
+无项目,No record
+该项目未绑定机组！,This project does not bind the unit!
+请选择机组！,Please select the unit!
+基础信息,Basic information
+项目信息,Project information
+机组信息,Gen-set Info.
+配置信息,Configuration information
+项目编号,Item number
+项目名称,Project name
+发动机型号,Engine model
+发电机型号,Alternator model
+备用功率,Standby power
+额定功率,Rated Power
+项目类型,Item type
+项目时间,Project time
+控制器型号,Controller model
+额定转速,Rated RPM
+额定电流,Rated Current
+项目地址,Project address
+额定频率,Rated Frequency
+额定电压,Rated Voltage
+启动次数,Number of starts
+海拔,altitude
+环境温度,Environment temperature
+大气压力,atmospheric pressure
+运行报警,
+点击跳转预警页面,Click to jump to the alert page
+维保报警,Maintenance alarm
+天气,weather
+维保周期,Maintenance cycle
+机组运行信息,Unit operation information
+报警曲线记录,Alarm Curve Record
+一键报修记录,One-click Repair Record
+启动曲线记录,Start Curve Record
+瞬时曲线,Instantaneous curve
+点击跳转云消息推送,Click skip page
+云消息推送,Send Cloud Message
+点击一键报修,click One-click Repair 
+一键报修,One-click Repair 
+是否确定发起调参申请？,Are you sure to initiate a request for parameter adjustment?
+调参申请,Remote configuration
+监控处理登记,Service Application
+服务申请,Service Application
+报修产品,Repair Product
+出厂编号,Serial Number
+联系人,Contact
+联系电话,Contact Number
+服务地址,Service Address
+故障图片,Fault Picture
+故障描述,Fault Description
+预览,Preview
+水套电瓶电压,Water jacket battery voltage
+水套加热器AC线电压,Water jacket heater AC line voltage
+水套加热器电流,Jacket heater current
+水套加热器水温,Jacket heater water temperature
+ECU进气温度,ECU inlet air temperature
+ECU通讯状态,ECU communication status
+ECU涡轮压力,ECU turbine pressure
+ECU燃油消耗速度,ECU fuel consumption speed
+燃油耗尽传感器%,Fuel depletion sensor %
+机油温度,Oil temperature
+燃油箱容量,Fuel tank capacity
+待滤箱箱容量,Capacity of the tank to be filtered
+补机油箱容量,Fill fuel tank capacity
+废液箱容量,Liquid waste tank capacity
+座燃油箱液位,Seat fuel tank level
+待滤箱液位,Liquid level of the tank to be filtered
+补机油箱液位,Fill the oil tank level
+排水含油传感器液位,Drain the oil sensor liquid level
+燃油油气分离器液位,Fuel oil and gas separator liquid level
+废液箱液位,Liquid waste tank level
+U型油底壳机油液位,U-pan oil level
+进风过滤阻力,Intake air filtration resistance
+环境温度,Ambient temperature
+电瓶1电压,Battery 1 voltage
+充电机电压,Charger voltage
+浮充电流,Floating charge current
+燃油位,Fuel level
+机油压力,Oil pressure
+水温,Water Temperature
+当前转速,Engine speed
+发电总无功功率,Reactive Power
+发电总有功功率,Active Power
+发电相电流,Generating phase current
+发电频率,Generation frequency
+发电相电压,Generator phase voltage
+发电线电压,Generating line voltage
+市电总功率因数,Mains Power Factor
+市电总无功功率,Mains Reactive Power
+市电总有功功率,Mains Active Power
+市电频率,Mains frequency
+市电相电压,Mains Wire Voltage
+市电线电压,Mains Phase Voltage
+APF通讯状态,APF communication status
+转速波动率,Speed Fluctuation Rate
+功率波动率,Power fluctuation
+电机轴承温度,Motor bearing temperature
+U相绕组温度,U-phase winding temperature
+W相绕组温度,W phase winding temperature
+V相绕组温度,V phase winding temperature
+机组累计加油次数,Total refueling times of generator set
+机组累计燃油用量,Cumulative fuel consumption of generator set
+机组累计运行时间,Cumulative running time of generator set
+机组累计发电量,Cumulative generating capacity of generator set
+机组累计无故障时间,Cumulative MTBF of the generator set
+机组累计超功率时间,Cumulative overpower time of generator set
+机组累计平均能耗,Cumulative average energy consumption of units
+机组累计低负荷运行时长,Cumulative low load operation time of generator set
+机组累计高负荷运行时长,Cumulative high load running time of the generator set
+功率因素、ECU通讯状态,"Power factor, ECU communication status"
+电池电压,Battery voltage
+水温、液位,"Water temperature, liquid level"
+三相电流,Three-phase current
+三相电压,Three-phase voltage
+机油压力,Oil pressure
+点击跳转项目维保策略配置页,Click to jump to the project maintenance policy configuration page
+维保策略配置,Configure maintenance policies
+设备报警记录,Equipment alarm record
+维保提示记录,Maintenance prompt records
+环境风险提示,Environmental risk warning
+事件时间,Event time
+报警名称,Alarm name
+启动可靠性趋势,Start-up reliability trend
+通过电瓶电压跌落情况、启动成功时间进行启动可靠性判断观察。,The startup reliability is judged and observed by the battery voltage drop and startup success time.
+获取项目列表信息失败，请检查网络！,"Operation failed, please check the network!"
+获取报警记录信息失败，请检查网络！,"Operation failed, please check the network!"
+客户工作规律,Customer work pattern
+负载规律,Load law
+优化维保策略,Optimization strategy
+通过了解客户规律可以猜测客户工作时间规律，进行维保节拍、沟通等时间确认。,
+通过有功功率和无功功率指标数据，展示最近7天负载情况。,
+查看油耗和进风过滤阻力对燃油、过滤器进行维保策略优化。,
+通过发电有功功率以及发电量展示当前机组在各个时间的工作情况，从而了解客户每天的用电情况，用电高峰期、用户稳定期等。,
+有功功率：在单位时间内，最大有功功率值，单位kW。,
+发电量：在单位时间内，累计的总发电量，单位：kW·h。,
+注：在客户工作规律图表中，因取的是最大有功功率，发电量在该图表中不等于有功功率 * 时间。,
+查看客户负载情况，知晓客户负载使用情况，为客户精准匹配功率段，可以为超出合同功率部分提供收费证明。,
+合同功率(w1)：租赁项目立项时与客户约定的使用功率。,
+限功功率(w2)：设定机组在一个合理的功率范围内进行发电运行，以防超功率运行损坏装备。,
+额定功率(w3)：机组出厂的额定功率。,
+备用功率(w4)：机组可以达到的最大功率值。,
+有功功率：有功功率是指单位时间内实际发出或消耗的交流电能量，是周期内的平均功率。查看有功负载情况。,
+无功功率：客户设备端电动机负载情况。,
+通过查看油耗、进风过滤阻力、燃油含水量等指标信息，观察一周的变化情况，可用于优化维保策略。,
+进风过滤阻力：用于查看环境恶心劣程度，通过查看阻力大小判断是否需要清洗滤网，如：阻力增大到88Pa，则需要进行清洗。,
+油耗：用于预测加油，通过观察油耗使用情况，可了解在一天何时进行加油处理。,
+燃油含水量：燃油中含水占比。,
+机组名称,Genset Name
+云猫标识,Cloud module Logo
+发动机型号,Engine model
+电机型号,Alternator model
+控制器品牌,Controller brand
+控制器型号,Controller model
+您确定要远程解锁吗？,Are you sure you want to unlock remotely?
+您确定要远程锁机吗？,Are you sure you want to lock the machine remotely?
+执行远程锁机操作后，机组将无法再次启动。请谨慎操作。,Caution:The device won't be able to start again if the remote lock operated.
+锁机原因,Locking Reason
+字符长度不超过200,Characters length does not exceed 200
+添加推送消息,Add content
+当前控制器暂未支持云消息推送,The controller does not support the function.
+设备名称,Genset Name
+轮播内容,Edit Message
+轮播时长,Broadcast period
+推送时间,Issue time
+类型,Type
+推送消息,Send
+清除消息,Clear
+机组名称,Genset Name
+云猫标识,Cloud module Logo
+类型,Type
+选择模板,Select message template
+轮播内容,Edit Message
+轮播时长,Broadcast period
+注意替换模板中的“___”,Replacing message template "---"
+若轮播时长设置为0或不填写，则代表永久轮播。,"
+
+Broadcasting no stop if the  ""Broadcast period"" is set to ""0""or left blank.
+
+
+
+"
+业务咨询：本机使用维护、技术业务咨询请联系xxx。,Technical Support Hot-line
+验收催款：本机已完成交付验收，按合同需支付验收款，请联系xxx。,"Gen-set running well,pay the balance!"
+质保催款：本机一年（/1500小时）质保期已到，按合同需缴纳质保金，请联系xxx。,"The warranty period has expired,pay the balance!"
+催款警告：本机欠款，有停机风险，请联系xxx。,WARNING!No money no honey
+可靠性提醒：本机**部件有故障风险，请及时保养或更换。,"REMINDER:Device has unknown running under risky,pls contact Technical Support Hot-line"
+租赁催款：按合同本机需支付租赁款，请联系xxx。,"REMINDER:Pay rent,if not gen-set is not working."
+维保提醒：本机维保还有**小时到期，请及时保养或联系xxx。,"REMINDER:Xh left for maintenance,pls contact Technical Support Hot-line"
+正品备件采购请联系xxx。,Technical Support Hot-line
+专业油品采购请联系xxx。,Technical Support Hot-line
+正品三滤采购请联系xxx。,Technical Support Hot-line
+天气寒冷，请注意添加防冻液。,REMINDER:Add antifreeze 
+冷却水温偏高，请注意加注冷却水。,REMINDER:Add coolant
+机油压力偏高，请更换机油、滤清器。,"REMINDER:Oil pressure high,change oil and oli filter"
+机油压力偏低，请注意添加机油。,"REMINDER:Oil pressure,add oil"
+本机起动困难，请保养起动电池。,REMINDER:Examine battery
+其它。,Others
+反馈人,Feedback person
+工单分类,Work order classification
+工单状态,Work order status
+关闭工单,Close work order
+确定关闭当前工单吗？,Are you sure to close the current ticket?
+关闭工单成功,Closing the work order succeeded
+关闭工单失败，请重新尝试,Failed to close the ticket. Please try again
+工单详情,Work order details
+工单号,Work order number
+联系电话,Contact number
+所属企业,Affiliated enterprise
+字数不超过100个字符,No more than 100 characters
+请输入回复信息！,Please enter a reply message!
+至少上传一张图片！,Upload at least one picture!
+确认发送？,Confirm sending?
+数据提交中，请稍候...,"Data submission, please wait..."
+仅限上传,Upload only
+张图片, picture（s）
+上传文件大小不能超过 5MB!,Upload file size cannot exceed 5MB!
+请选择所属项目,Please select a project
+请输入发电机组名称,Please enter the generator name
+请输入客户姓名,Please enter the customer name
+待确认,To be confirmed
+已确认,Confirmed
+已完成,Done
+已评价,Reviewed
+无人值守,Unmanned 
+有人值守,Guarded
+确认,Confirm
+调参,Configuration
+历史,Historical record
+服务单编号,Service order number
+申请人,Applicant
+申请时间,Application time
+机组名称,Genset Name
+客户姓名,Customer  name
+客户联系方式,Customer contact
+状态,Status
+调参人,dispatcher
+是否可调参,Whether the parameter can be adjusted
+机组编码,Unit coding
+是否确认？,Are you sure?
+是否确认删除？,Do you want to delete it?
+机组名称,Name of generator set
+云猫标识,Cloud module Logo
+控制器品牌,Controller brand
+调参协议,Confuguration protocol
+安装地点,Installation site
+通讯协议,Communication protocol
+有人值守,Guarded
+名称,Name
+旧值,Old value
+新值,New value
+单位,unit
+更新时间,Update time
+完成服务,Complete service
+参数,Parameters
+功能,Function
+曲线,Curve
+测量,measure
+维保,maintenance
+水箱劣化分析,Degradation Analysis-Engine water tank
+机油滤清器劣化分析,Degradation Analysis-
+电瓶劣化分析,Degradation Analysis-
+今日,today
+本周,This week
+本月,Current month
+本年,This year
+诊断指标,Diagnostic index
+劣化指标,Deterioration index
+机组编号,Generator set number
+运行状态,Running state
+租赁状态,Lease status
+机组位置筛选,Unit location screening
+租赁类型,Lease type
+请输入机组编号,Please enter the unit number
+请选择运行状态,Please select the running status
+请选择租赁状态,Please select lease status
+请选择机组所在位置,Please select the location of the unit
+请选择租赁类型,Please select a lease type
+租赁次数,Number of leases
+公有云可选机组,Optional unit
+编辑机组,Editing generator set
+请输入设备名称,Please enter the device name
+请输入标识,Please enter identification
+确定移除当前机组吗？,Are you sure to remove the current unit?
+报警信息,Alarm message
+智能维保记录,Intelligent maintenance records
+监控处理登记,Monitor processing register
+维保策略详情,Maintenance policy details
+机组图像,Generator set image
+机组图片,Generator set picture
+机组视频,Crew video
+燃油单元,Fuel unit
+冷却水单元,Cooling water unit
+机油单元,Oil unit
+废液箱单元,Liquid waste tank unit
+自动补换机油周期情况,Automatic oil refill cycle
+开,Open 
+关,Close
+强制自动补换机油,Fuel unit
+含水量,Cooling water unit
+燃油排水,Oil unit
+排水电磁阀,Liquid waste tank unit
+进油管空气比例,Automatic oil refill cycle
+燃油预供,Fuel presupply
+燃油耗尽传感器,Fuel depletion sensor
+燃油箱余量,Fuel tank allowance
+燃油补充,Fuel refill
+燃油抽取泵,Fuel extraction pump
+冷却液位,Cooling level
+当前水温,Current water temperature
+A相电流,A-phase current
+B相电流,B-phase current
+C相电流,C-phase current
+AC线电压,AC line voltage
+水温加热,Water temperature heating
+水套加热器,Jacket heater
+水箱补水,Water tank refill
+发动机油底壳液位,Engine oil pan level
+补机油箱余量,Replenishment of fuel tank allowance
+油底壳补油,Oil pan replenishment
+补机油补油泵,Oil refill pump
+新机油箱补油,New fuel tank replenishment
+抽取外部机油泵,Extractor external oil pump
+待滤油箱余量,Residual amount of tank to be filtered
+油底壳排油,Oil pan discharge
+待滤油箱抽油泵,Waiting tank pump
+废机油箱排油,Waste oil tank discharge
+排废机油泵,Waste oil pump
+废液箱液位,Liquid waste tank level
+暂无摄像头,No camera
+切换至维保视图,Switch to maintenance view
+切换至卡片视图,Switch to card view
+切换至仿真视图,Switch to emulation view
+记录智能维保前后关键数据信息,Record key data before and after intelligent maintenance
+静置状态,Resting state
+准备状态,readiness
+测试加油状态,Test fueling status
+测试加油静置,Test the fueling stand
+测试抽油状态,Test the pumping status
+测试抽油静置,Test the suction stand
+正式加油状态,Official fueling condition
+正式抽油状态,Official pumping status
+维保时间,Maintenance time
+进油管空气比例,Intake pipe air ratio
+燃油剩余量,Fuel surplus
+油底壳机油液位,Oil pan oil level
+新机油箱余量,New fuel tank allowance
+新机油箱%,New fuel tank %
+待滤机油箱余量,Remaining tank of filter
+待滤机油箱%,To filter oil tank %
+废液箱余量,Waste liquid tank allowance
+废液箱%,Waste liquid tank %
+电瓶电压,Battery voltage
+实时监控事项处理登记,Real-time monitoring transaction registration
+处理登记,Processing registration
+处理记录,Processing record
+请选择已处理的实时监控事项,Select a processed real-time monitoring event
+备注说明,remarks
+处理事项,transaction
+确认登记,Confirmation of registration
+维保仿真视图,Maintain the simulation view
+正常,normal
+缺水,Lack of water
+含水,Containing water
+水箱水位,Tank level
+进油管液位,Intake line level
+机体温度,Body temperature
+进油剩余,Feed surplus
+废液箱,Liquid waste tank
+排水百分比,Percentage drainage
+补机油箱,Replenishment tank
+待滤油箱,Waiting tank
+底座燃油箱,Base fuel tank
+启动,Start
+停止,stop
+维保工作站使能信号状态,Maintain workstation enable signal status
+手动模式,Manual mode
+自动模式,Automatic mode
+抽新机油泵,
+油底壳机油,
+补机油箱还能抽,
+油底壳机油还能补,
+油底壳机油还能排,
+待滤油箱还能排,
+排水泵,
+废液箱,
+排水百分比还能排,
+外部补新机油泵,
+补机油箱还能补,
+外部排废机油泵,
+外部抽燃油泵,
+底座燃油还能补,
+实时数据,
+历史曲线,
+APF启动按钮,
+APF停止按钮,
+APF复位按钮,
+系统初始化,
+系统停止,
+电压爬升,
+等待带载,
+正常工作,Normal operation
+前2小时,First 2 hours
+前1.5小时,First 1.5 hours
+前1小时,First hour
+前0.5小时,First 0.5 hours
+时间跨度,Time span
+展开,unfold
+收起,Pack up
+全选,select all.
+参数选择,Parameter selection
+"未查询到相关数据,建议修改查询条件",
+发电机侧,
+电源侧A相电流畸变率,
+电源侧B相电流畸变率,
+电源侧C相电流畸变率,
+电源侧A相电压,
+电源侧B相电压,
+电源侧C相电压,
+电源侧A相电流,
+电源侧B相电流,
+电源侧C相电流,
+电源侧A相功率因数,
+电源侧B相功率因数,
+电源侧C相功率因数,
+电源侧总功率因数,
+电源侧电流负序不平衡度,
+电源侧电流零序不平衡度,
+电机轴承温度,
+U相绕组温度,
+V相绕组温度,
+W相绕组温度,
+负荷侧,
+负荷侧A相电流畸变率,
+负荷侧B相电流畸变率,
+负荷侧C相电流畸变率,
+负荷侧A相电流,
+负荷侧B相电流,
+负荷侧C相电流,
+负荷侧A相功率因数,
+负荷侧B相功率因数,
+负荷侧C相功率因数,
+负载侧总功率因数,
+负载侧电流负序不平衡度,
+负载侧电流零序不平衡度,
+GPQC电能质量控制器,
+谐波分析总谐波畸变率,
+谐波分析基波分量,
+谐波分析直流分量,
+直流总电压,
+直流电压1,
+直流电压2,
+滤波器A相直流电流,
+滤波器B相直流电流,
+滤波器C相直流电流,
+滤波器N相直流电流,
+IGBT1温度,
+IGBT2温度,
+IGBT3温度,
+内部温度,
+机组谐波含量,
+谐波分析总谐波畸变率,
+谐波分析基波分量,
+谐波分析直流分量,
+APF-IGBT3温度,
+APF-IGBT2温度,
+APF-IGBT1温度,
+APF内部温度,
+APF滤波器N相电流,
+APF滤波器三相直流电流,
+APF三相直流电压,
+APF负载侧三相电流畸变率,
+APF负载侧三相电流,
+APF电源侧三相电流畸变率,
+APF电源侧线电压,
+APF电源侧相电压,
+APF通讯状态,
+APF负载电流零序不平衡度,
+APF负载电流负序不平衡度,
+APF电源A相功率因数,
+APF电源B相功率因数,
+APF电源C相功率因数,
+APF电源总功率因数,
+APF负载A相功率因数,
+APF负载B相功率因数,
+APF负载C相功率因数,
+APF负载总功率因数,
+平均功率因数,
+发电总无功功率,
+发电总有功功率,
+APF市电电流零序不平衡度,
+APF市电电流负序不平衡度,
+APF电源侧A相电流,
+APF电源侧B相电流,
+APF电源侧C相电流,
+是否确定点击该控制按钮,Are you sure to click the control button
+"提交中,请稍后...","Submission, please wait..."
+,
+,
+点检时间,
+点检人,
+异常项目,
+正常项目,
+忽略项目,
+详情,
+点检项目,
+点检结果,
+异常,
+正常,
+忽略,
+巡检维保项目,
+内部维保详情,
+维保记录用户,
+维保时间,
+地址,
+维保实施人签名,
