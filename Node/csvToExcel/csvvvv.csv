@@ -85,10 +85,10 @@ ADC电压,ADC voltage
 绝对时间,Absolute time
 运行时间,Run time
 机油温度,Oil Temperature
-功率,
-时间,
-转速,
-数量,
+功率,power
+时间,time
+转速,Rotational speed
+数量,quantity
 ,
 ,
 ,
@@ -143,55 +143,57 @@ ADC电压,ADC voltage
 报警历史,Alarm history
 上线记录,Online Record
 发电量统计,Power generating calculation
-历史曲线,
-燃油记录,
+历史曲线,Historical curve
+燃油记录,Fuel log
 历史记录,History Data
 机组履历,Genset Resume
-固定资产管理,
-运维管理,
+固定资产管理,Asset management
+运维管理,Operation and maintenance management
 远程调参,Remote configuration
-远程调参-调参历史,
-远程调参-调参操作,
+远程调参-调参历史,Remote tuning - Tuning history
+远程调参-调参操作,Remote parameter - Parameter operation
 劣化分析,Degradation Analysis
-租赁机组,
+租赁机组,Rental generator set
 机组云通讯,Cloud Service
-维保监控,
-电能质量监控,
-用户反馈,
-工单详情,
-运维图,
-日运维图,
-周运维图,
+维保监控,Maintenance monitoring
+电能质量监控,Power quality monitoring
+用户反馈,User feedback
+工单详情,Work order details
+运维图,Operation and maintenance diagram
+日运维图,Daily operation and maintenance chart
+周运维图,Weekly operation and maintenance chart
 远程解锁机,Remote unlock
 云消息推送,Send Cloud message
-资源管理,
-服务商管理,
-备件管理,
-系统设置,
-协议管理,
-维保策略,
-新增维保策略,
-查看维保策略,
-权限管理,
-组织架构管理,
-人员管理,
-功能权限管理,
-数据权限管理,
-广告位管理,
-app端广告位,
-小程序广告位,
+点检记录,Spot check record
+点检详情,Check details
+资源管理,Resource management
+服务商管理,Service provider management
+备件管理,Spare parts management
+系统设置,System setting
+协议管理,Protocol management
+维保策略,Maintenance strategy
+新增维保策略,Added a maintenance policy
+查看维保策略,View the maintenance policy
+权限管理,Authority management
+组织架构管理,Organizational structure management
+人员管理,Personnel management
+功能权限管理,Function authority management
+数据权限管理,Data rights management
+广告位管理,Advertising space management
+app端广告位,app side advertising space
+小程序广告位,Small program advertising space
 ,
-实时监控,
-实时监控事项,
-运行报警,
-周期维保,
-环境风险,
-自动维保,
-警告,
-故障,
-维保,
-备注,
-自动补换机油周期情况,
+实时监控,Real-time monitoring
+实时监控事项,Real-time monitoring event
+运行报警,Operation alarm
+周期维保,Cycle maintenance
+环境风险,Environmental risk
+自动维保,Automatic maintenance
+警告,warn
+故障,breakdown
+维保,maintenance
+备注,remark
+自动补换机油周期情况,Automatic oil refill cycle
 ,
 帮助中心,Help center
 点击打开帮助中心,Click to open the Help Center
@@ -264,27 +266,27 @@ app端广告位,
 已暂停自动展播,Auto broadcast paused
 已开始自动展播,Auto broadcast started
 XX S后将自动展示智能装备中国分布图,"After XX S, Chinese distribution map of intelligent equipment will be automatically displayed"
-已停止自动展播,
-点击开始自动展播,
-点击暂停展播,
-点击立即跳转,
-全球智能装备数量Top10,
+已停止自动展播,Automatic playback has been stopped
+点击开始自动展播,Click to start Autoplay
+点击暂停展播,Click to pause the show
+点击立即跳转,Click to jump now
+全球智能装备数量Top10,The number of intelligent equipment in the world Top10
 中国各省,Provinces of China
-智能装备数量Top15,
-数据详情,
-所属项目,
-客户反馈,
-全部反馈,
+智能装备数量Top15,The number of intelligent equipment Top15
+数据详情,Data detail
+所属项目,Affiliated project
+客户反馈,Customer feedback
+全部反馈,Full feedback
 点击查看详情,Click for details
 客户反馈详情,Customer feedback Details
 发送,send
 字数不超过100个字符,No more than 100 characters
 文本,text
 图片,picture
-维保提示与报警实时监控,
-设备与报警实时监控,
-环境风险提示与报警实时监控,
-待受理,
+维保提示与报警实时监控,Maintenance prompt and alarm real-time monitoring
+设备与报警实时监控,Equipment and alarm real-time monitoring
+环境风险提示与报警实时监控,Environmental risk warning and alarm real-time monitoring
+待受理,To be processed
 处理中,Processing
 已完成,Done
 点击跳转到维保监控页面,Click to switch to the "Maintenance monitoring" page
@@ -292,12 +294,12 @@ XX S后将自动展示智能装备中国分布图,"After XX S, Chinese distribut
 点击跳转到机组监控页面,Click to jump to the "Unit monitoring" page
 ,
 ,
-运维,
+运维,Operation and maintenance
 代运维,Managed operation and maintenance
-准备中,
+准备中,In preparation
 进行中,Processing
 已完成,Done
-实时报警,
+实时报警,Real-time alarm
 保养提醒,Maintenance Alert
 项目名称,Project name
 请输入项目名称,Please enter a project name
@@ -305,15 +307,15 @@ XX S后将自动展示智能装备中国分布图,"After XX S, Chinese distribut
 请选择项目类型,Please select the project type
 项目状态,Project status
 请选择项目状态,Please select project status
-项目地址,
-项目生效时间,
-项目创建时间,
-项目编号,
-功率需求,
-机组数量,
-项目开始时间,
-项目结束时间,
-到期剩余时间,
+项目地址,Project address
+项目生效时间,Project effective time
+项目创建时间,Project creation time
+项目编号,Item number
+功率需求,Power requirement
+机组数量,Number of units
+项目开始时间,Project start time
+项目结束时间,Project end time
+到期剩余时间,Remaining time to maturity
 新建项目,New project
 即将到期项目,Expiring item
 开启项目,Open project
@@ -321,43 +323,43 @@ XX S后将自动展示智能装备中国分布图,"After XX S, Chinese distribut
 确定开启项目 “XXX” 吗？,Are you sure to open project "XXX"?
 开启操作不可取消，请谨慎操作。,The enable operation cannot be canceled.  Exercise caution when performing this operation.
 确定完结项目 “XXX” 吗？,Is the completion project "XXX" confirmed?
-完结后，项目相关信息将不再支持编辑，操作不可取消，请谨慎操作。,
-项目信息,
-项目机组,
-项目监控,
-工程管理,
-完工记录,
-数据记录,
-选择项目,
-当前项目状态下无项目数据,
-项目列表,
-请选择项目,
-切换项目,
-项目机组功率（kW）,
-项目机组数量（台）,
-基本信息,
-参数配置,
-合同文件,
-项目人员,
-项目机组,
-机组群设置,
-并机组配置,
+完结后，项目相关信息将不再支持编辑，操作不可取消，请谨慎操作。,"After the completion of the project information will no longer support editing, the operation cannot be cancelled, please exercise caution."
+项目信息,Project information
+项目机组,Project unit
+项目监控,Project monitoring
+工程管理,Project management
+完工记录,Completion record
+数据记录,Data recording
+选择项目,Select item
+当前项目状态下无项目数据,There is no project data in the current project state
+项目列表,Item list
+请选择项目,Please select item
+切换项目,Switch item
+项目机组功率（kW）,Project generator Power (kW)
+项目机组数量（台）,Number of project generator sets (units)
+基本信息,Basic information
+参数配置,Parameter configuration
+合同文件,Contract document
+项目人员,Project personnel
+项目机组,Project generator set
+机组群设置,Unit group setup
+并机组配置,Parallel unit configuration
 新增项目,New item
 编辑项目,Edit item
 新建项目成功!,New project success!
 新建项目失败，请重新提交!,"New project failed, please resubmit!"
 编辑项目成功!,Edit project successful!
 编辑项目失败，请重新提交!,"Edit project failed, please resubmit!"
-项目名称,
-项目编号,
-项目类型,
-项目地址,
-项目起止时间,
-功率需求,
-租赁台数,
-项目租金,
-创建时间,
-合同状态,
+项目名称,Project name
+项目编号,Item number
+项目类型,Item type
+项目地址,Project address
+项目起止时间,Project start and end time
+功率需求,Power requirement
+租赁台数,Number of leased units
+项目租金,Project rent
+创建时间,Creation time
+合同状态,Contract status
 中国,China
 全球,global
 台,-
@@ -375,55 +377,55 @@ XX S后将自动展示智能装备中国分布图,"After XX S, Chinese distribut
 "限制整数位不超过6位,小数点不超过2位",Limit integers to no more than 6 digits and decimal points to no more than 2 digits
 仅可输入不超过两位数的非零正整数,Only non-zero positive integers with no more than two digits can be entered
 "限制整数位不超过8位,小数点不超过2位",Limit integers to no more than 8 digits and decimal points to no more than 2 digits
-编辑参数,
-远程服务次数(次),
-现场故障服务(次),
-现场维保服务(次),
-现场故障完成次数(次),
-现场维保完成次数(次),
-允许超限功率时间阈值(h),
-允许超合同功率时间阈值(h),
-启动电瓶跌落最大电压限制(V),
-启动成功最长时间限制(S),
-远程服务次数,
-现场故障服务次数,
-现场维保服务次数,
-现场故障完成次数,
-现场维保完成次数,
-允许超限功率时间阈值,
-允许超合同功率时间阈值,
-启动电瓶跌落最大电压限制,
-启动成功最长时间限制,
-请输入远程服务次数,
-请输入现场故障服务次数,
-请输入现场维保服务次数,
-请输入现场故障完成次数,
-请输入现场维保完成次数,
-请输入允许超限功率时间,
-请输入允许超合同功率时间,
-请输入启动电瓶跌落最大电压,
-请输入启动成功最长时间,
-仅可输入不超过四位数的整数,
-"限制整数位不超过3位,小数点不超过1位",
+编辑参数,Edit parameter
+远程服务次数(次),Number of remote services (times)
+现场故障服务(次),On-site fault service (sub)
+现场维保服务(次),On-site maintenance service (sub)
+现场故障完成次数(次),Number of field failures completed (times)
+现场维保完成次数(次),Number of site maintenance completions (times)
+允许超限功率时间阈值(h),Allowable overpower time threshold (h)
+允许超合同功率时间阈值(h),Allow over contract power time threshold (h)
+启动电瓶跌落最大电压限制(V),Starting battery drop Maximum voltage limit (V)
+启动成功最长时间限制(S),Maximum startup time limit (S)
+远程服务次数,Remote service times
+现场故障服务次数,Number of service failures on site
+现场维保服务次数,Number of on-site maintenance services
+现场故障完成次数,Number of on-site fault completions
+现场维保完成次数,Number of site maintenance completions
+允许超限功率时间阈值,Allows the power time threshold to be exceeded
+允许超合同功率时间阈值,Allowed to exceed the contract power time threshold
+启动电瓶跌落最大电压限制,Starting battery drop maximum voltage limit
+启动成功最长时间限制,The maximum time limit for successful startup
+请输入远程服务次数,Please enter the number of remote services
+请输入现场故障服务次数,Please enter the number of service failures on site
+请输入现场维保服务次数,Please enter the number of on-site maintenance services
+请输入现场故障完成次数,Please enter the number of on-site failure completions
+请输入现场维保完成次数,Please enter the number of on-site maintenance completions
+请输入允许超限功率时间,Please enter the allowable overpower time
+请输入允许超合同功率时间,Please enter allow over contract power time
+请输入启动电瓶跌落最大电压,Please enter the maximum drop voltage of the starting battery
+请输入启动成功最长时间,Please enter the maximum startup time
+仅可输入不超过四位数的整数,Only integers of up to four digits can be entered
+"限制整数位不超过3位,小数点不超过1位",Limit the number of integers to no more than 3 and the decimal point to no more than 1
 上传文件,Upload file
 上传合同文件,Upload contract file
 文件类型,File type
 文件上传,File upload
 文件名称,File name
 备注,remark
-请选择文件类型,
-请选择文件,
-请输入文件名称,
-请输入备注,
-长度不超过 15 个字符,
-选取文件,
-(支持不超过10M的.doc、docx、xls、xlsx、pdf、rar、zip、jpg、jpge、png文件；最多上传10个文件),
+请选择文件类型,Please select a file type
+请选择文件,Please select file
+请输入文件名称,Please enter a file name
+请输入备注,Please enter remarks
+长度不超过 15 个字符,The length cannot exceed 15 characters
+选取文件,Select file
+(支持不超过10M的.doc、docx、xls、xlsx、pdf、rar、zip、jpg、jpge、png文件；最多上传10个文件),"(Support no more than 10M.doc, docx, xls, xlsx, pdf, rar, zip, jpg, jpge, png files; Upload up to 10 files)"
 上传文件个数不能超过3个,A maximum of three files can be uploaded
 上传文件格式有误,The uploaded file format is incorrect
 上传文件大小不能超过 10MB!,Upload file size cannot exceed 10MB!
 文件上传成功!,File upload successful!
 文件上传失败，请重新提交!,"File upload failed, please resubmit!"
-合同文件查看,
+合同文件查看,View contract documents
 文件备注,Document remarks
 文件列表,File list
 删除文件,Delete file
@@ -435,7 +437,7 @@ XX S后将自动展示智能装备中国分布图,"After XX S, Chinese distribut
 文件大小,File size
 添加人员,Add personnel
 编辑人员,Editorial staff
-商务,
+商务,business
 技术,Technology
 群监控用户,Group onitoring user
 添加用户成功,Adding a user succeeded
@@ -455,8 +457,8 @@ XX S后将自动展示智能装备中国分布图,"After XX S, Chinese distribut
 请选择公司,Please select Company
 请选择人员类型,Please select a person type
 请选择负责人,Please select responsible person
-添加机组,
-移除机组,
+添加机组,Addition of generator set
+移除机组,Removal of generator set
 维保策略,Maintenance strategy
 电子围栏,Electronic fence
 控制器配置,Controller configuration
@@ -689,8 +691,10 @@ XX S后将自动展示智能装备中国分布图,"After XX S, Chinese distribut
 允许超合同功率时间阈值,Allowed to exceed the contract power time threshold
 启动电瓶跌落最大电压限制,Starting battery drop maximum voltage limit
 启动成功最长时间限制,The maximum time limit for successful startup
-"单机组,并机组","Single unit, parallel unit"
-"总实时功率,总限制功率","Total real-time power, total limited power"
+单机组,Single unit
+并机组,parallel unit
+总实时功率,Total real-time power
+总限制功率,total limited power
 温馨提示：鼠标移入下方并机区域后按住键盘shift键同时向下滚动鼠标滚轮即可查看更多并机机组,"Tips: After moving the mouse to the lower parallel area, hold down the keyboard shift key and scroll down the mouse wheel to see more parallel units"
 柴油机,Diesel engine
 燃气机,Gas engine
@@ -1012,10 +1016,10 @@ AVR型号,AVR model
 发电量统计,Power generating calculation
 机组全屏监控,Full screen
 当前时间,Current time
-监控设置,
-滚动,
-间隔,
-状态,
+监控设置,Monitoring Settings
+滚动,roll
+间隔,interval
+状态,status
 请输入发电机组名称,Input Generator Name
 机组列表,Genset List
 机组定位,GPS
@@ -1573,29 +1577,29 @@ AC线电压,AC line voltage
 维保工作站使能信号状态,Maintain workstation enable signal status
 手动模式,Manual mode
 自动模式,Automatic mode
-抽新机油泵,
-油底壳机油,
-补机油箱还能抽,
-油底壳机油还能补,
-油底壳机油还能排,
-待滤油箱还能排,
-排水泵,
-废液箱,
-排水百分比还能排,
-外部补新机油泵,
-补机油箱还能补,
-外部排废机油泵,
-外部抽燃油泵,
-底座燃油还能补,
-实时数据,
-历史曲线,
-APF启动按钮,
-APF停止按钮,
-APF复位按钮,
-系统初始化,
-系统停止,
-电压爬升,
-等待带载,
+抽新机油泵,New oil pump
+油底壳机油,Oil pan oil
+补机油箱还能抽,The filler tank can still pump
+油底壳机油还能补,Oil pan oil can be repaired
+油底壳机油还能排,Pan oil can drain
+待滤油箱还能排,The filter tank can still drain
+排水泵,Dewatering pump
+废液箱,Liquid waste tank
+排水百分比还能排,The drainage percentage can still be drained
+外部补新机油泵,External replenishment oil pump
+补机油箱还能补,The filler tank can still be filled
+外部排废机油泵,External waste oil pump
+外部抽燃油泵,External fuel pump
+底座燃油还能补,Base fuel can be repaired
+实时数据,Real-time data
+历史曲线,Historical curve
+APF启动按钮,APF start button
+APF停止按钮,APF Stop button
+APF复位按钮,APF reset button
+系统初始化,System initialization
+系统停止,System stop
+电压爬升,Voltage climb
+等待带载,Waiting load
 正常工作,Normal operation
 前2小时,First 2 hours
 前1.5小时,First 1.5 hours
@@ -1606,108 +1610,108 @@ APF复位按钮,
 收起,Pack up
 全选,select all.
 参数选择,Parameter selection
-"未查询到相关数据,建议修改查询条件",
-发电机侧,
-电源侧A相电流畸变率,
-电源侧B相电流畸变率,
-电源侧C相电流畸变率,
-电源侧A相电压,
-电源侧B相电压,
-电源侧C相电压,
-电源侧A相电流,
-电源侧B相电流,
-电源侧C相电流,
-电源侧A相功率因数,
-电源侧B相功率因数,
-电源侧C相功率因数,
-电源侧总功率因数,
-电源侧电流负序不平衡度,
-电源侧电流零序不平衡度,
-电机轴承温度,
-U相绕组温度,
-V相绕组温度,
-W相绕组温度,
-负荷侧,
-负荷侧A相电流畸变率,
-负荷侧B相电流畸变率,
-负荷侧C相电流畸变率,
-负荷侧A相电流,
-负荷侧B相电流,
-负荷侧C相电流,
-负荷侧A相功率因数,
-负荷侧B相功率因数,
-负荷侧C相功率因数,
-负载侧总功率因数,
-负载侧电流负序不平衡度,
-负载侧电流零序不平衡度,
-GPQC电能质量控制器,
-谐波分析总谐波畸变率,
-谐波分析基波分量,
-谐波分析直流分量,
-直流总电压,
-直流电压1,
-直流电压2,
-滤波器A相直流电流,
-滤波器B相直流电流,
-滤波器C相直流电流,
-滤波器N相直流电流,
-IGBT1温度,
-IGBT2温度,
-IGBT3温度,
-内部温度,
-机组谐波含量,
-谐波分析总谐波畸变率,
-谐波分析基波分量,
-谐波分析直流分量,
-APF-IGBT3温度,
-APF-IGBT2温度,
-APF-IGBT1温度,
-APF内部温度,
-APF滤波器N相电流,
-APF滤波器三相直流电流,
-APF三相直流电压,
-APF负载侧三相电流畸变率,
-APF负载侧三相电流,
-APF电源侧三相电流畸变率,
-APF电源侧线电压,
-APF电源侧相电压,
-APF通讯状态,
-APF负载电流零序不平衡度,
-APF负载电流负序不平衡度,
-APF电源A相功率因数,
-APF电源B相功率因数,
-APF电源C相功率因数,
-APF电源总功率因数,
-APF负载A相功率因数,
-APF负载B相功率因数,
-APF负载C相功率因数,
-APF负载总功率因数,
-平均功率因数,
-发电总无功功率,
-发电总有功功率,
-APF市电电流零序不平衡度,
-APF市电电流负序不平衡度,
-APF电源侧A相电流,
-APF电源侧B相电流,
-APF电源侧C相电流,
+"未查询到相关数据,建议修改查询条件",No relevant data is found. You are advised to modify the query conditions
+发电机侧,Generator side
+电源侧A相电流畸变率,Distortion rate of A-phase current on the power side
+电源侧B相电流畸变率,B-phase current distortion rate on the power side
+电源侧C相电流畸变率,Distortion rate of phase C current on the power supply side
+电源侧A相电压,Phase A voltage on the power side
+电源侧B相电压,B phase voltage on the power side
+电源侧C相电压,C-phase voltage on the power supply side
+电源侧A相电流,Phase A current on the power supply side
+电源侧B相电流,B phase current on the power side
+电源侧C相电流,Phase C current on the power supply side
+电源侧A相功率因数,Phase A power factor on the power side
+电源侧B相功率因数,B phase power factor on the power side
+电源侧C相功率因数,C-phase power factor on the power side
+电源侧总功率因数,Total power factor on the power side
+电源侧电流负序不平衡度,Unbalance of negative current sequence on the power supply side
+电源侧电流零序不平衡度,Zero sequence unbalance of current on the power supply side
+电机轴承温度,Motor bearing temperature
+U相绕组温度,U-phase winding temperature
+V相绕组温度,V phase winding temperature
+W相绕组温度,W phase winding temperature
+负荷侧,Load side
+负荷侧A相电流畸变率,Distortion rate of A-phase current on the load side
+负荷侧B相电流畸变率,Distortion rate of B-phase current on the load side
+负荷侧C相电流畸变率,Distortion rate of phase C current on the load side
+负荷侧A相电流,Phase A current on the load side
+负荷侧B相电流,Load side B phase current
+负荷侧C相电流,Phase C current on the load side
+负荷侧A相功率因数,Load side A-phase power factor
+负荷侧B相功率因数,Load side B-phase power factor
+负荷侧C相功率因数,Load side C-phase power factor
+负载侧总功率因数,Total power factor on the load side
+负载侧电流负序不平衡度,Unbalance of negative sequence of current on load side
+负载侧电流零序不平衡度,Load side current zero sequence unbalance degree
+GPQC电能质量控制器,GPQC Power quality controller
+谐波分析总谐波畸变率,Harmonic analysis Total harmonic distortion rate
+谐波分析基波分量,Fundamental component of harmonic analysis
+谐波分析直流分量,Harmonic analysis DC component
+直流总电压,Total dc voltage
+直流电压1,Dc voltage 1
+直流电压2,Dc voltage 2
+滤波器A相直流电流,Filter A-phase DC current
+滤波器B相直流电流,Filter B phase DC current
+滤波器C相直流电流,Filter C phase DC current
+滤波器N相直流电流,Filter n-phase DC current
+IGBT1温度,IGBT1 Temperature
+IGBT2温度,IGBT2 temperature
+IGBT3温度,IGBT3 temperature
+内部温度,Internal temperature
+机组谐波含量,Harmonic content of unit
+谐波分析总谐波畸变率,Harmonic analysis Total harmonic distortion rate
+谐波分析基波分量,Fundamental component of harmonic analysis
+谐波分析直流分量,Harmonic analysis DC component
+APF-IGBT3温度,APF-IGBT3 Temperature
+APF-IGBT2温度,APF-IGBT2 Temperature
+APF-IGBT1温度,APF-IGBT1 Temperature
+APF内部温度,APF internal temperature
+APF滤波器N相电流,APF filter N phase current
+APF滤波器三相直流电流,APF filter three-phase DC current
+APF三相直流电压,APF three-phase DC voltage
+APF负载侧三相电流畸变率,APF three-phase current distortion rate on the load side
+APF负载侧三相电流,APF three-phase current on the load side
+APF电源侧三相电流畸变率,Three-phase current distortion rate of APF power supply side
+APF电源侧线电压,Side line voltage of APF power supply
+APF电源侧相电压,APF side phase voltage
+APF通讯状态,APF communication status
+APF负载电流零序不平衡度,APF load current zero sequence unbalance degree
+APF负载电流负序不平衡度,APF load current negative sequence unbalance
+APF电源A相功率因数,APF power supply A-phase power factor
+APF电源B相功率因数,APF B phase power factor
+APF电源C相功率因数,APF power supply C-phase power factor
+APF电源总功率因数,Total power factor of APF power supply
+APF负载A相功率因数,APF load A-phase power factor
+APF负载B相功率因数,APF load B-phase power factor
+APF负载C相功率因数,APF load C-phase power factor
+APF负载总功率因数,APF Total load power factor
+平均功率因数,Average power factor
+发电总无功功率,Total reactive power of power generation
+发电总有功功率,Total active power of power generation
+APF市电电流零序不平衡度,APF zero sequence unbalance of mains current
+APF市电电流负序不平衡度,APF negative sequence unbalance of mains current
+APF电源侧A相电流,APF phase A current on the power side
+APF电源侧B相电流,APF B phase current on the power side
+APF电源侧C相电流,APF phase C current on the power side
 是否确定点击该控制按钮,Are you sure to click the control button
 "提交中,请稍后...","Submission, please wait..."
 ,
 ,
-点检时间,
-点检人,
-异常项目,
-正常项目,
-忽略项目,
-详情,
-点检项目,
-点检结果,
-异常,
-正常,
-忽略,
-巡检维保项目,
-内部维保详情,
-维保记录用户,
-维保时间,
-地址,
-维保实施人签名,
+点检时间,Check time
+点检人,enumerator
+异常项目,Abnormal item
+正常项目,Normal item
+忽略项目,Ignore item
+详情,details
+点检项目,Spot check item
+点检结果,Spot check result
+异常,abnormal
+正常,normal
+忽略,ignore
+巡检维保项目,Inspection and maintenance items
+内部维保详情,Internal maintenance details
+维保记录用户,Maintenance record user
+维保时间,Maintenance time
+地址,address
+维保实施人签名,Signature of the maintenance implementer
