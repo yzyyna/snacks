@@ -1,0 +1,30 @@
+#test-1 {
+  > div {
+    overflow: hidden; /* 超出盒子隐藏 */
+    display: -webkit-box; /* 弹性盒子模型 */
+    -webkit-line-clamp: 3; /* 显示行数 */
+    text-overflow: ellipsis; /* 多行文本，省略号隐藏溢出范围文本 */
+    -webkit-box-orient: vertical; /* 子元素垂直排列 */
+  }
+}
+.test-2 {
+  background-color: #17145d;
+  padding: 40px;
+  display: flex;
+  .skew_container_item {
+    height: 20px;
+    width: 10px;
+    transform: skew(-45deg);
+    background: linear-gradient(#23d1fc 0%, #1768a3 90%, transparent 100%);
+    box-shadow: 2px -2px 4px 0px rgba(23, 104, 163, 0.8);
+  }
+  .skew_container_item:not(:first-child) {
+    margin-left: 10px;
+  }
+  .skew_container_item:nth-child(2) {
+    background: linear-gradient(#1b9acf 0%, #0d4183 90%, transparent 100%);
+  }
+  .skew_container_item:nth-child(3) {
+    background: linear-gradient(#0d4a8c 0%, #0b3c7e 90%, transparent 100%);
+  }
+}

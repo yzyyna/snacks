@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML</title>
+    <!-- <link rel="stylesheet/less" type="text/css" href="styles.less" /> -->
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <style>
     #test-1 > div {
@@ -25,6 +28,31 @@
         IBM奖是1984至2002年间颁发给NBA篮球运动员的年度奖项。该奖由科技公司IBM赞助，经计算机公式决定得主，公式以球员对球队所做贡献为衡量标准。每个赛季中对所在球队贡献最大的球员获奖。洛杉矶湖人的魔术师约翰逊是奖项的首位得主，最后一位获奖者则是圣安东尼奥马刺的蒂姆·邓肯。获奖的大部分球员都是球队的前锋或中锋，许多人在相应赛季争得的篮板球数量也是最多的。奖项一共颁发了19次，其中圣安东尼奥马刺队球员有6次获奖。大卫·罗宾逊获奖次数最多，达到5次。2015年迪肯贝·穆托姆博入选奈史密斯篮球名人纪念堂后，所有IBM奖得主中有资格入选名人纪念堂的球员均已入选。
       </div>
     </div>
-    <script></script>
+    <!-- 测试使用transform中的skew方法 -->
+    <div class="skew_container test-2">
+      <div class="skew_container_item"></div>
+      <div class="skew_container_item"></div>
+      <div class="skew_container_item"></div>
+    </div>
+    <script>
+      // 测试 Array 中的 map 和 forEach 不自动捕获错误
+      // 1.Array.map
+      const arr = [1, 2, 3, 4, 5];
+      // const arr2 = arr.map((item) => {
+      //   const newObj = {
+      //     some: item.someParam.sub + 3,
+      //   };
+      //   return newObj;
+      // });
+      // console.log("%c ~ arr2 ~ ", "color:#2ecc71", arr2);
+      // 2.Array.forEach
+      arr.forEach((item) => {
+        // try {
+        // console.log("%c ~ item ~ ", "color:#2ecc71", item.someParam.sub);
+        // } catch (error) {
+        // console.error("%c ~ error ~ ", "color:#2ecc71", error);
+        // }
+      });
+    </script>
   </body>
 </html>
