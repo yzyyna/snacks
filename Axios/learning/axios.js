@@ -128,30 +128,49 @@ instance.interceptors.response.use(
 // controller.abort();
 // *** Example with a timeout using latest AbortSignal.timeout() API [nodejs 17.3+]:
 // https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal
-instance
-  .get("", {
-    signal: AbortSignal.timeout(4000), //Aborts request after 5 seconds
-  })
-  .then(function (response) {
-    //...
-  })
-  .catch(function (error) {
-    if (error.response) {
-      console.log("%c ~ error.response ~ ", "color:#2ecc71");
-      // The request was made and the server responded with a status code
-      // that falls out of the range of 2xx
-      console.log(error.response.data);
-      console.log(error.response.status);
-      console.log(error.response.headers);
-    } else if (error.request) {
-      console.log("%c ~ error.request ~ ", "color:#2ecc71");
-      // The request was made but no response was received
-      // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
-      // http.ClientRequest in node.js
-      console.log(error.request);
-    } else {
-      // Something happened in setting up the request that triggered an Error
-      console.log("Error", error.message);
+// instance
+//   .get("", {
+//     signal: AbortSignal.timeout(4000), //Aborts request after 5 seconds
+//   })
+//   .then(function (response) {
+//     //...
+//   })
+//   .catch(function (error) {
+//     if (error.response) {
+//       console.log("%c ~ error.response ~ ", "color:#2ecc71");
+//       // The request was made and the server responded with a status code
+//       // that falls out of the range of 2xx
+//       console.log(error.response.data);
+//       console.log(error.response.status);
+//       console.log(error.response.headers);
+//     } else if (error.request) {
+//       console.log("%c ~ error.request ~ ", "color:#2ecc71");
+//       // The request was made but no response was received
+//       // `error.request` is an instance of XMLHttpRequest in the browser and an instance of
+//       // http.ClientRequest in node.js
+//       //   console.log(error.request);
+//     } else {
+//       // Something happened in setting up the request that triggered an Error
+//       console.log("Error", error.message);
+//     }
+//     // console.log(error.config);
+//   });
+
+const get = (url, params, cancelTime) => {
+  return new Promise((resolve, reject) => {
+    const ct = cancelTime;
+    const axiosRequestConfig = { params: params };
+    if (ct) {
+      axiosRequestConfig.signal = AbortSignal.timeout(cancelTime);
     }
-    // console.log(error.config);
+    instance
+      .get(url, axiosRequestConfig)
+      .then((res) => {
+        resolve(res);
+      })
+      .catch((err) => {
+        reject(err);
+      });
   });
+};
+module.exports = { get };
