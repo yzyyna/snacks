@@ -125,7 +125,7 @@ instance.interceptors.response.use(
 //     // console.log(error.config);
 //   });
 // cancel the request
-// controller.abort();
+// controller.abort() ;
 // *** Example with a timeout using latest AbortSignal.timeout() API [nodejs 17.3+]:
 // https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal
 // instance
