@@ -13,6 +13,7 @@ var obj = {
   name: "sunny",
   sex: "man",
 };
+// ???
 var res = obj.map(
   //   function (val, prop, obj) {
   //     console.log(this);
