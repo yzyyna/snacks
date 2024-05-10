@@ -8,7 +8,7 @@ Object.prototype.map = function (handleFn, thisValue) {
   }
   return res;
 };
-// 测试用例
+// 测试用例 ？？
 var obj = {
   name: "sunny",
   sex: "man",
