@@ -5,6 +5,13 @@
  * @LastEditTime: 2024-04-15 13:45:14
  * @Description:
  */
+/*
+ * @Autor: linxu
+ * @Date: 2024-04-07 09:22:11
+ * @LastEditors: linxu
+ * @LastEditTime: 2024-04-22 20:40:10
+ * @Description:
+ */
 const zh = {
   ele: {
     confirm: "确 定",
@@ -74,6 +81,7 @@ const zh = {
       "是否确认删除数据？",
     ],
     deleteTipResMsg: ["删除成功!", "删除失败!", "已取消删除"],
+    editTipResMsg: ["编辑成功!", "编辑失败!"],
     yes: "是",
     no: "否",
     imagePreview: "图片预览",
@@ -115,6 +123,7 @@ const zh = {
     enable: "启用",
     disable: "禁用",
     write: "写入",
+    hello: "您好",
   },
   reliabilityEnum: [
     "未分类",
@@ -163,6 +172,7 @@ const zh = {
       crewreportDetailTitle: "查看报告详情",
       crewDistributeTitle: "机组分布",
       crewmonitorTitle: "机组监控",
+      crewGroupMonitorTitle: "机组群监控",
       crewLocationTitle: "机组防盗",
       crewTrackTitle: "机组轨迹",
       dataRecordTitle: "数据记录",
@@ -276,6 +286,8 @@ const zh = {
     },
   },
   monitoringScreen: {
+    buttonLabelList: ["管理系统", "运维平台"],
+    columnsList: ["项目名称", "机组名称", "内容", "时间", "处理状态"],
     project: {
       allTitle: "项目总览",
       totalLabel: "机组总数",
@@ -622,9 +634,21 @@ const zh = {
         "是否并机",
         "机组配置情况",
       ],
+      editColumnTitle: [
+        "编辑合同功率",
+        "编辑限制功率",
+        "编辑额定功率",
+        "编辑备用功率",
+      ],
+      editColumnTip: [
+        "仅可输入正整数，输入格式错误！",
+        "不能大于额定功率",
+        "不能大于备用功率",
+        "不能小于限制功率",
+        "不能小于额定功率",
+      ],
       selectCrewColumns: [
         "机组名称",
-        "标识",
         "发动机型号",
         "功率",
         "运行时间",
@@ -703,7 +727,6 @@ const zh = {
       ],
       setGroupCrewColumns: [
         "机组名称与标识",
-        "标识",
         "发动机型号",
         "额定功率(kW)",
         "是否并机",
@@ -1075,6 +1098,24 @@ const zh = {
           "备注",
         ],
         tip: ["已选择 XX 条记录", "是否确认删除该记录?"],
+        resultEnum: ["正常", "不正常", "其他"],
+        powerFailureListColumns: [
+          "供电故障描述",
+          "故障时间",
+          "故障确认人",
+          "确认时间",
+          "处理结果",
+          "备注",
+        ],
+        equipmentFailureListColumns: [
+          "设备故障描述",
+          "故障时间",
+          "对应机组",
+          "对应报警描述",
+          "处理结果",
+          "运维专家",
+          "对应报告编号",
+        ],
       },
     },
   },
@@ -1082,6 +1123,7 @@ const zh = {
     searchList: ["筛选", "类型"],
     searchListPlaceholder: ["至", "开始时间", "结束时间", "请选择"],
     columnsLabelList: ["索引值", "试验类型", "创建时间", "查看曲线"],
+    testType: ["出厂质检", "交付试验", "一键报修", "启动记录", "报警记录"],
     dateErrorTip: "请确保结束日期在开始日期之后",
     mouldPage: {
       listLabelList: [
@@ -1162,6 +1204,33 @@ const zh = {
         queryErrorTip: "机组维保策略查询失败！",
         messageList: ["请添加维保事项!", "维保事项不允许保存空值!"],
         deleteTipList: ["删除维保事项", "确认删除数据吗？"],
+      },
+      // Reference maintenance policy template information
+      referenceDialog: {
+        title: "引用维保策略模板信息",
+        title2: "维保策略模板",
+        inputPlaceholder: [
+          "支持维保策略名称关键词搜索",
+          "请选择发动机品牌",
+          "请选择策略主备分类",
+        ],
+        formLabel: ["全部发动机品牌", "全部策略主备"],
+        selected: "已选择",
+        tab: ["基本信息"],
+        tableTitle: "维保事项",
+        tip: "提示：选择左侧的维保策略模板后即可查看模板详情",
+        buttonLabel: "确认引用模板并替换已录入的维保策略信息",
+        columnsList: [
+          "维保策略名称",
+          "发动机品牌",
+          "发动机系列",
+          "节拍时长",
+          "维保节拍个数",
+          "维保周期时长",
+          "维保周期个数",
+          "检修周期时长",
+          "策略主备分类",
+        ],
       },
     },
     crewinfo: {
@@ -1494,6 +1563,23 @@ const zh = {
     },
     crewOperateRecord: {
       columnsLabelList: ["类型", "操作人", "操作时间"],
+      typeOpt: [
+        "全部",
+        "停机",
+        "手动",
+        "模拟",
+        "自动",
+        "静音",
+        "启动",
+        "发电合闸",
+        "市电合闸",
+        "报警复位",
+        "发电分闸",
+        "市电分闸",
+        "远程锁机",
+        "远程解锁",
+        "重启云猫",
+      ],
     },
     runningRecord: {
       columnsLabelList: [
@@ -1531,6 +1617,52 @@ const zh = {
       expandLabelList: ["展开", "收起"],
       typeOpt: ["全部", "前2小时", "前1.5小时", "前1小时", "前0.5小时"],
     },
+    alarmCurve: {
+      testType: [
+        "报警-超速",
+        "报警-机油压力低",
+        "报警-冷却水温高",
+        "报警-机油温度高",
+        "报警-发电电流过载",
+        "报警-发电机过压",
+        "报警-逆功率",
+        "报警-发电机欠频",
+        "报警-蓄电池电压低",
+        "报警-传感器故障",
+        "报警-燃油液位低",
+        "报警-水位低",
+        "报警-自启动失败",
+        "报警-停机失败",
+        "报警-合闸失败",
+        "报警-分闸失败",
+        "报警-紧急停机",
+        "报警-发电机过频率",
+        "报警-发电机过功率",
+        "报警-发电电流过流",
+        "报警-发电机欠压",
+        "报警-发动机欠速",
+        "报警-ECU故障报警",
+        "交付验收试验",
+        "应急发电周期试验",
+        "故障诊断-启动失败试验",
+        "一键报修",
+        "启动记录",
+        "日志-启动",
+        "日志-停机",
+        "日志-合闸",
+        "日志-分闸",
+        "日志-开机巡检",
+        "日志-停机巡检",
+        "出厂试验",
+      ],
+    },
+    // 机组群监控
+    crewGroupMonitor: {
+      title: "机组群监控",
+      topLabelList: ["有功功率", "发电量", "当前时间"],
+      clickToMonitor: "点击跳转机组监控",
+      bottomLabelList: ["电流", "相电压", "线电压", "频率"],
+    },
   },
   settingManagement: {
     maintenanceStrategy: {
@@ -1562,6 +1694,7 @@ const zh = {
         "检修周期时长",
         "维保节拍个数",
       ],
+      tipList: ["确认", "该策略"],
     },
     advertisement: {
       nameList: ["小程序", "首页轮播图"],
@@ -1924,6 +2057,9 @@ const zh = {
         "数据提交中，请稍候...",
       ],
       formTip: ["仅限上传", "张图片", "上传文件大小不能超过 5MB!"],
+      typeOpt: ["项目建议", "投诉", "其他"],
+      statusOpt: ["待处理", "待确认", "已关闭"],
+      columnsList: ["标题", "内容", "提交时间"],
     },
     remoteTuning: {
       list: {
@@ -2032,6 +2168,11 @@ const zh = {
       ],
       specialLabel: "自动补换机油周期情况",
       operate: ["开", "关", "强制自动补换机油"],
+      monitorItemMethanol: [
+        "底座汽油箱液位百分比",
+        "底座甲醇箱液位百分比",
+        "甲醇耗尽传感器液位百分比",
+      ],
       monitorItem: {
         0: ["含水量", "燃油排水", "排水电磁阀"],
         1: ["进油管空气比例", "燃油预供"],
@@ -2137,6 +2278,7 @@ const zh = {
           "排废机油泵",
         ],
         6: ["底座燃油箱", "燃油补充", "燃油抽取泵"],
+        7: ["底座甲醇箱", "底座汽油箱"],
       },
       maintenanceView: {
         status: ["状态", "启动", "停止"],
@@ -2205,7 +2347,6 @@ const zh = {
             "电源侧C相功率因数",
             "",
             "电源侧总功率因数",
-            ,
             "电源侧电流负序不平衡度",
             "电源侧电流零序不平衡度",
             "",
@@ -2305,6 +2446,9 @@ const zh = {
       title: ["巡检维保项目", "内部维保详情"],
       itemLabel: ["维保记录用户", "维保时间", "地址", "维保实施人签名"],
     },
+  },
+  microGrid: {
+    title: "",
   },
 };
 
