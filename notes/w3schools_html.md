@@ -468,4 +468,4 @@ Example
 `<bdo dir="ltr">This text will be written from right to left</bdo>`
 <bdo dir="rtl">This text will be written from right to left</bdo>
 
-<bdo dir="ltr">This text will be written from left to right</bdo>
+<bdo dir="ltr">This text will be written from left to right</bdo>--
