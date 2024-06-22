@@ -19,4 +19,4 @@ fetch("https://elm.cangdu.org/v1/pois?city_id=1&keyword=迪士尼&type=search", 
   })
   .catch((reason) => {
     console.error("Error...", reason);
-  });
+  }); 
