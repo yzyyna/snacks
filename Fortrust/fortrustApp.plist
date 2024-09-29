@@ -12,19 +12,19 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>http://192.168.110.254:8888/fortrustApp.ipa</string>
+                    <string>http://192.168.110.216:8888/fortrustApp.ipa</string>
                 </dict>
             </array>
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>com.fortrustapp.fortrustyun</string>
+                <string>com.fortrust.fpss</string>
                 <key>bundle-version</key>
                 <string>1.0.0</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
-                <string>FPSS云</string>
+                <string>fortrust app</string>
             </dict>
         </dict>
     </array>
