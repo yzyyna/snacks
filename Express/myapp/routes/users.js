@@ -18,8 +18,9 @@ router.get("/", function (req, res, next) {
   sleep(5000);
   res.send("respond with a resource");
 });
+
 router.get("/getJson", function (req, res, next) {
-  res.json({ a: "respond with a resource", b: 1, c: false });
+  res.json({ a: "respond with a resource", b: 1, c: false, d: "dddd" });
 });
 
 module.exports = router;
