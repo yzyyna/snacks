@@ -3,15 +3,20 @@ const en = require("./en");
 const { log } = require("console");
 const res = {};
 const indexOrKey = [];
+
+//
 const func = (target, currentKey) => {
+  //   if (indexOrKey.includes("chargeItems")) {
+  //     debugger;
+  //   }
   if (typeof target === "string") {
-    indexOrKey.length = 0;
     if (res[target] === undefined) {
-      //   if (indexOrKey.includes("formLabel")) {
-      //     debugger;
-      //   }
       res[target] = func2(indexOrKey, en[currentKey]);
     }
+    const lastElement = indexOrKey.pop();
+    if (typeof lastElement === "number")
+      // 如果是数组，继续删除前一个索引，否则只删除最后一个索引
+      indexOrKey.splice(indexOrKey.length - 1, 1);
   }
   if (typeof target === "object") {
     if (!Array.isArray(target)) {
@@ -29,6 +34,7 @@ const func = (target, currentKey) => {
 };
 // 从深度未知且元素类型未知且最终元素为字符串的对象中，通过一个索引数组找到最终值
 const func2 = (arr, obj) => {
+  console.log("%c ~ arr, obj ~ ", "color:#2ecc71", arr, obj);
   let c = {};
   arr.reduce((m, n) => {
     c = m[n];
@@ -36,23 +42,25 @@ const func2 = (arr, obj) => {
   }, obj);
   return c;
 };
-const func3 = (cu) => {
-  if (typeof cu === "string") {
-  } else {
-    if (Array.isArray(cu)) {
-      cu.forEach((e) => {
-        func();
+// 循环找
+const func3 = (mu) => {
+  if (typeof mu === "object") {
+    if (Array.isArray(mu)) {
+      mu.forEach((e) => {
+        func(e);
       });
     } else {
-      for (const key in cu) {
-        func(cu[key], key);
+      for (const key in mu) {
+        func(mu[key], key);
       }
     }
   }
 };
 func3(zh);
+log(Object.keys(res).length);
 
 // *** test S *** //
+
 a = { a: 1, b: { c: [2, 3, { s: "s", d: "d" }] } };
 a2 = [0, 1, 2, 3, { arr: [0, 2] }];
 b = ["b", "c", 2, "d"];
