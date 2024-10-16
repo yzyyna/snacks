@@ -5,7 +5,7 @@ const res = {};
 const indexOrKey = [];
 
 //
-const func = (target, currentKey) => {
+const func = (target, currentKey, flag, flag2, endKey) => {
   //   if (indexOrKey.includes("chargeItems")) {
   //     debugger;
   //   }
@@ -14,20 +14,38 @@ const func = (target, currentKey) => {
       res[target] = func2(indexOrKey, en[currentKey]);
     }
     const lastElement = indexOrKey.pop();
-    if (typeof lastElement === "number")
+    if (typeof lastElement === "number" && flag)
       // 如果是数组，继续删除前一个索引，否则只删除最后一个索引
       indexOrKey.splice(indexOrKey.length - 1, 1);
+    if (flag2) {
+      indexOrKey.splice(
+        indexOrKey.findIndex((e) => e === endKey),
+        1
+      );
+    }
   }
   if (typeof target === "object") {
     if (!Array.isArray(target)) {
+      const keys = Object.keys(target);
+      let index = 1;
       for (const key in target) {
+        let flag = false;
+        index++;
+        if (index === keys.length) {
+          flag = true;
+        }
         indexOrKey.push(key);
-        func(target[key], currentKey);
+        func(target[key], currentKey, false, flag, key);
       }
     } else {
+      const length = target.length;
       target.forEach((e, index) => {
+        let flag = false;
+        if (length - 1 === index) {
+          flag = true;
+        }
         indexOrKey.push(index);
-        func(e, currentKey);
+        func(e, currentKey, flag);
       });
     }
   }
