@@ -29,3 +29,23 @@ const complexObj = {
 console.log(findValueByPath(complexObj, ["a", "b", 2, "c"])); // 输出: "目标字符串"
 console.log(findValueByPath(complexObj, ["e"])); // 输出: "另一个字符串"
 console.log(findValueByPath(complexObj, ["a", "d", 3])); // 输出: undefined，因为索引3超出范围
+
+// 从深度未知且元素类型未知且最终元素为字符串的对象中，通过一个索引数组找到最终值
+const func2 = (arr, obj) => {
+  let c = {};
+  arr.reduce((m, n) => {
+    c = m[n];
+    return c;
+  }, obj);
+  return c;
+};
+// *** test S *** //
+
+a = { a: 1, b: { c: [2, 3, { s: "s", d: "d" }] } };
+a2 = [0, 1, 2, 3, { arr: [0, 2] }];
+b = ["b", "c", 2, "d"];
+b2 = [4, "arr", 1];
+c = func2(b2, a2);
+
+console.log(c);
+// *** test E *** //

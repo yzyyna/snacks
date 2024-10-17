@@ -52,7 +52,6 @@ const func = (target, currentKey, flag, flag2, endKey) => {
 };
 // 从深度未知且元素类型未知且最终元素为字符串的对象中，通过一个索引数组找到最终值
 const func2 = (arr, obj) => {
-  console.log("%c ~ arr, obj ~ ", "color:#2ecc71", arr, obj);
   let c = {};
   arr.reduce((m, n) => {
     c = m[n];
