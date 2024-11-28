@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .test {
+        width: 0;
+        height: 0;
+        border-width: 10px;
+        border-style: solid;
+        border-color: green transparent transparent transparent;
+        transition: background-color 1s ease-in-out, transform 0.5s linear;
+      }
+      .test:hover {
+        width: 20px;
+        height: 20px;
+        background-color: red;
+        border: 0;
+        transform: rotate(60deg) scale(1.5);
+      }
+      .test2 {
+        width: 15px;
+        height: 15px;
+        background-color: green;
+        animation: 1s ease-in-out 2s test infinite;
+        animation-direction: alternate;
+      }
+      .test3 {
+        width: 20px;
+        height: 20px;
+        background-color: aqua;
+        clip-path: circle(50% at right center);
+      }
+      @keyframes test {
+        from {
+          background-color: green;
+          width: 15px;
+          height: 15px;
+        }
+        to {
+          background-color: antiquewhite;
+          width: 15px;
+          height: 25px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="test3" v-if="isEdit"></div>
+    <div class="test" v-if="isEdit"></div>
+    <div class="test2" v-if="isEdit"></div>
+  </body>
+</html>
