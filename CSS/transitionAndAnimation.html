@@ -27,11 +27,28 @@
         animation: 1s ease-in-out 2s test infinite;
         animation-direction: alternate;
       }
+      .test-wrapper {
+        display: flex;
+      }
       .test3 {
         width: 20px;
         height: 20px;
         background-color: aqua;
         clip-path: circle(50% at right center);
+      }
+      .test3-2 {
+        width: 20px;
+        height: 20px;
+        background-color: rgb(14, 142, 142);
+        border: 1px dashed gray;
+        clip-path: ellipse(10px 5px at center center);
+      }
+      .test3-3 {
+        width: 20px;
+        height: 20px;
+        background-color: rgb(125, 198, 143);
+        border: 1px dashed gray;
+        clip-path: polygon(0 0, 50% 50%, 0 100%); // 左边
       }
       @keyframes test {
         from {
@@ -48,8 +65,12 @@
     </style>
   </head>
   <body>
-    <div class="test3" v-if="isEdit"></div>
-    <div class="test" v-if="isEdit"></div>
-    <div class="test2" v-if="isEdit"></div>
+    <div class="test-wrapper">
+      <div class="test3" v-if="isEdit"></div>
+      <div class="test3-2" v-if="isEdit"></div>
+      <div class="test3-3" v-if="isEdit"></div>
+      <div class="test" v-if="isEdit"></div>
+      <div class="test2" v-if="isEdit"></div>
+    </div>
   </body>
 </html>
