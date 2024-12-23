@@ -1,3 +1,4 @@
+// node readline
 const readline = require("node:readline");
 const { stdin: input, stdout: output } = require("node:process");
 
