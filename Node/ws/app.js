@@ -14,7 +14,7 @@ wss.on("connection", function (ws) {
     //     client.send(message);
     //   }
     // });
-    console.log(`[SERVER] Received : ${message}`);
+    console.log(`[SERVER] Received: ${message}`);
     setTimeout(() => {
       ws.send(`What's your name?`, (err) => {
         if (err) {
