@@ -7,7 +7,7 @@ let origin = 100;
 
 rl.question("What do you think of Node.js? ", (answer) => {
   // TODO: Log the answer in a database
-  console.log(`Thank you for your valuable feedback: ${answer}`);
+  console.log(`Thank you for your valuable  feedback: ${answer}`);
   origin = Number(answer);
   const n = 1;
   const cost1 = origin * 100 * n * (0.5 / 1000); //yin hua
