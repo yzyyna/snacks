@@ -6,6 +6,8 @@
     <button onclick="stopWorker()">Stop Worker</button>
     <input type="text" value="" />
     <script>
+      // Use "Live Server" to startup(Because of CORS )
+      // https://developer.mozilla.org/zh-CN/docs/Web/API/Worker/message_event
       var w;
       function startWorker() {
         if (typeof Worker !== "undefined") {
