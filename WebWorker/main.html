@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Web Worker</title>
+  </head>
   <body>
+    <a
+      href="https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API"
+      target="_blank"
+      >MDN Reference
+    </a>
     <p>Count numbers: <output id="result"></output></p>
     <button onclick="startWorker()">Start Worker</button>
     <button onclick="stopWorker()">Stop Worker</button>
     <input type="text" value="" />
     <script>
+      // Use "Live Server" to startup(Because of CORS )
+      // https://developer.mozilla.org/zh-CN/docs/Web/API/Worker/message_event
       var w;
       function startWorker() {
         if (typeof Worker !== "undefined") {
-          if (typeof w === "undefined") {
-            w = new Worker("demo_workers.js");
-          }
+          w = new Worker("demo_workers.js");
           w.onmessage = function (event) {
             console.log(event);
             document.getElementById("result").innerHTML = event.data;

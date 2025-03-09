@@ -25,6 +25,6 @@ var res = obj.map(
     console.log(val, prop, obj);
     return prop + "--" + val;
   },
-  { name: "thisthis" }
+  { name: "this" }
 );
 console.log("res::", res, Object);
