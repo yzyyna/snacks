@@ -15,7 +15,7 @@ router.get("/", function (req, res, next) {
   }
 
   // 调用方法，同步执行，阻塞后续程序的执行；
-  sleep(5000);
+  sleep(3000);
   res.send("respond with a resource");
 });
 
