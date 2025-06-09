@@ -5,6 +5,7 @@ const { stdin: input, stdout: output } = require('node:process')
 const rl = readline.createInterface({ input, output })
 let origin = 100
 
+// 价格,数量
 rl.question('what(price,count)?', (answer) => {
   // TODO: Log the answer in a database
   console.log(`your origin: ${answer}`)
