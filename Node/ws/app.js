@@ -1,33 +1,38 @@
-const WebSocket = require("ws");
+const WebSocket = require('ws')
 
-const WebSocketServer = WebSocket.Server;
+const WebSocketServer = WebSocket.Server
 
 const wss = new WebSocketServer({
-  port: 3000,
-});
+  port: 3000
+})
 
-wss.on("connection", function (ws) {
-  console.log(`[SERVER] connection()`);
-  ws.on("message", function (message) {
+wss.on('connection', function (ws) {
+  console.log(`[SERVER] connection()`)
+  ws.send(`connection`, (err) => {
+    if (err) {
+      console.log(`[SERVER] error: ${err}`)
+    }
+  })
+  ws.on('message', function (message) {
     // wss.clients.forEach(function each(client) {
     //   if (client.readyState === WebSocket.OPEN) {
     //     client.send(message);
     //   }
     // });
-    console.log(`[SERVER] Received: ${message}`);
+    console.log(`[SERVER] Received: ${message}`)
     setTimeout(() => {
       ws.send(`What's your name?`, (err) => {
         if (err) {
-          console.log(`[SERVER] error: ${err}`);
+          console.log(`[SERVER] error: ${err}`)
         }
-      });
-    }, 1000);
-  });
-});
-console.log("ws server started at port 3000...");
+      })
+    }, 1000)
+  })
+})
+console.log('ws server started at port 3000...')
 setTimeout(() => {
-  console.log(wss.clients);
-}, 30000);
+  console.log(wss.clients)
+}, 30000)
 
 // // client test:
 
