@@ -70,12 +70,11 @@ p.then((res) => {
     })
   }, 20 * 1000)
   let ws = new WebSocket(
-    'ws://192.168.110.170/v1/event/subscription?chns=0&events=Alarm.%2A,Alarm.DetectRegion'
+    'ws://192.168.110.170/v1/event/subscription?chns=0,1&events=Temp.*'
   )
 
   ws.on('open', function () {
     console.log(`[CLIENT] open()`)
-    ws.send('[CLIENT] say: Hello!')
   })
 
   ws.on('message', function (message) {
