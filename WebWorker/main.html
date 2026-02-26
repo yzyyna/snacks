@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Web Worker</title>
@@ -16,22 +16,23 @@
     <script>
       // Use "Live Server" to startup(Because of CORS )
       // https://developer.mozilla.org/zh-CN/docs/Web/API/Worker/message_event
-      var w;
+      // give me some time to count, and then you can stop it.
+      var w
       function startWorker() {
-        if (typeof Worker !== "undefined") {
-          w = new Worker("demo_workers.js");
+        if (typeof Worker !== 'undefined') {
+          w = new Worker('demo_workers.js')
           w.onmessage = function (event) {
-            console.log(event);
-            document.getElementById("result").innerHTML = event.data;
-          };
+            console.log(event)
+            document.getElementById('result').innerHTML = event.data
+          }
         } else {
-          document.getElementById("result").innerHTML =
-            "Sorry, your browser does not support Web Workers...";
+          document.getElementById('result').innerHTML =
+            'Sorry, your browser does not support Web Workers...'
         }
       }
 
       function stopWorker() {
-        w.terminate();
+        w.terminate()
       }
     </script>
   </body>
