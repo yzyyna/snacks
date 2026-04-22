@@ -1,0 +1,60 @@
+const WebSocket = require('ws')
+
+const WebSocketServer = WebSocket.Server
+const port = 8899
+
+const wss = new WebSocketServer({
+  port
+})
+
+wss.on('connection', function (ws) {
+  console.log(`[SERVER] connection()`)
+  ws.send(`connection`, (err) => {
+    if (err) {
+      console.log(`[SERVER] error: ${err}`)
+    }
+  })
+  ws.on('message', function (message) {
+    // wss.clients.forEach(function each(client) {
+    //   if (client.readyState === WebSocket.OPEN) {
+    //     client.send(message);
+    //   }
+    // });
+    console.log(`[SERVER] Received: ${message}`)
+    setTimeout(() => {
+      ws.send(`What's your name?`, (err) => {
+        if (err) {
+          console.log(`[SERVER] error: ${err}`)
+        }
+      })
+    }, 1000)
+  })
+})
+console.log('ws server started at port ' + port + '...')
+setTimeout(() => {
+  console.log(wss.clients)
+}, 30000)
+
+// // client test:
+
+// let count = 0;
+
+// let ws = new WebSocket("ws://localhost:3000/ws/chat");
+
+// ws.on("open", function () {
+//   console.log(`[CLIENT] open()`);
+//   ws.send("Hello!");
+// });
+
+// ws.on("message", function (message) {
+//   console.log(`[CLIENT] Received: ${message}`);
+//   count++;
+//   if (count > 3) {
+//     ws.send("Goodbye!");
+//     ws.close();
+//   } else {
+//     setTimeout(() => {
+//       ws.send(`Hello, I'm Mr No.${count}!`);
+//     }, 1000);
+//   }
+// });
