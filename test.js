@@ -8,11 +8,12 @@ Object.prototype.map = function (handleFn, thisValue) {
   }
   return res;
 };
-// 测试用例
+// 测试用例 ？？
 var obj = {
   name: "sunny",
   sex: "man",
 };
+// ???
 var res = obj.map(
   //   function (val, prop, obj) {
   //     console.log(this);
@@ -24,6 +25,6 @@ var res = obj.map(
     console.log(val, prop, obj);
     return prop + "--" + val;
   },
-  { name: "thisthis" }
+  { name: "this" }
 );
-console.log("res:", res, Object);
+console.log("res::", res, Object);

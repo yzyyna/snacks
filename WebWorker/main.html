@@ -1,29 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <title>Web Worker</title>
+  </head>
   <body>
+    <a
+      href="https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API"
+      target="_blank"
+      >MDN Reference get some
+    </a>
     <p>Count numbers: <output id="result"></output></p>
     <button onclick="startWorker()">Start Worker</button>
     <button onclick="stopWorker()">Stop Worker</button>
     <input type="text" value="" />
     <script>
-      var w;
+      // Use "Live Server" to startup(Because of CORS )
+      // https://developer.mozilla.org/zh-CN/docs/Web/API/Worker/message_event
+      // give me some time to count, and then you can stop it.
+      var w
       function startWorker() {
-        if (typeof Worker !== "undefined") {
-          if (typeof w === "undefined") {
-            w = new Worker("demo_workers.js");
-          }
+        if (typeof Worker !== 'undefined') {
+          w = new Worker('demo_workers.js')
           w.onmessage = function (event) {
-            console.log(event);
-            document.getElementById("result").innerHTML = event.data;
-          };
+            console.log(event)
+            document.getElementById('result').innerHTML = event.data
+          }
         } else {
-          document.getElementById("result").innerHTML =
-            "Sorry, your browser does not support Web Workers...";
+          document.getElementById('result').innerHTML =
+            'Sorry, your browser does not support Web Workers...'
         }
       }
 
       function stopWorker() {
-        w.terminate();
+        w.terminate()
       }
     </script>
   </body>

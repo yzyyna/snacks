@@ -1,9 +1,8 @@
-
 function timedCount() {
-  for (var i = 0; i < 10000000000; i++) {
-    if (i % 100000 === 0) {
+  for (var i = 0; i < 10 ** 9; i++) {
+    if (i % (2.33333 * 10 ** 8) === 0) {
       postMessage(i);
-    //   console.log(i);
+      console.log(i);
     }
   }
 }

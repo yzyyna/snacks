@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web Bluetooth 示例</title>
+  </head>
+  <body>
+    <h1>Web Bluetooth API 示例</h1>
+    <button id="connectBtn">连接蓝牙设备并读取电池电量</button>
+    <pre id="log"></pre>
+
+    <script>
+      const log = (msg) => {
+        document.getElementById('log').textContent += msg + '\n'
+      }
+
+      document
+        .getElementById('connectBtn')
+        .addEventListener('click', async () => {
+          try {
+            // 1. 请求用户选择一个支持 battery_service 的 BLE 设备
+            const device = await navigator.bluetooth.requestDevice({
+              filters: [{ services: ['battery_service'] }]
+            })
+            log(`已选择设备: ${device.name || '未命名设备'}`)
+
+            // 2. 连接 GATT 服务器
+            const server = await device.gatt.connect()
+            log('已连接到 GATT 服务器')
+
+            // 3. 获取电池服务
+            const service = await server.getPrimaryService('battery_service')
+
+            // 4. 获取电池电量特征值
+            const characteristic = await service.getCharacteristic(
+              'battery_level'
+            )
+
+            // 5. 读取电池电量
+            const value = await characteristic.readValue()
+            const batteryLevel = value.getUint8(0)
+            log(`电池电量: ${batteryLevel}%`)
+          } catch (error) {
+            log('错误: ' + error)
+          }
+        })
+    </script>
+  </body>
+</html>

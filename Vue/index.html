@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
   </head>
   <style>
@@ -32,6 +33,7 @@
   </style>
   <body>
     <div id="app-2">
+      <span>{{$t('common.hello')}}</span>
       <span v-bind:title="message"> don't care </span>
       <span> {{message | myFilter}}</span>
       <div
@@ -45,9 +47,29 @@
       </div>
     </div>
   </body>
-  <script src="./vue.js"></script>
+  <script src="https://unpkg.com/vue@2.7.16/dist/vue.js"></script>
+  <script src="https://unpkg.com/vue-i18n@8"></script>
   <script>
+    // 准备翻译的语言环境信息
+    const common = {
+      en: {
+        message: {
+          hello: "hello world",
+        },
+      },
+      zh: {
+        message: {
+          hello: "你好，世界",
+        },
+      },
+    };
+    // 通过选项创建 VueI18n 实例
+    const i18n = new VueI18n({
+      locale: "zh", // 设置地区
+      common, // 设置地区信息
+    });
     var app2 = new Vue({
+      i18n,
       el: "#app-2",
       data: {
         message: "d " + new Date().toLocaleString(),
