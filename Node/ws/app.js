@@ -6,15 +6,13 @@ const wss = new WebSocket.Server({ port });
 console.log(`🚀 [云猫模拟端] 服务启动 (兼容模式)`);
 
 wss.on('connection', function (ws, request) {
-  // 打印一下 request 看看，如果 request 也是 undefined，说明是库的调用方式问题
-  // 但没关系，我们直接进入逻辑
   console.log(`\n--------------------------------`);
   console.log(`[连接] 客户端已接入`);
 
   ws.on('message', function (message) {
     const msgStr = message.toString().trim();
     
-    // 1. 握手逻辑：不管路径了，直接识别内容
+    // 1. 握手逻辑
     if (msgStr.toLowerCase() === 'cloudcat') {
       console.log(`[成功] 收到握手信号: ${msgStr} -> 回传: CloudCat`);
       ws.send('CloudCat');
@@ -34,9 +32,17 @@ wss.on('connection', function (ws, request) {
       return;
     }
 
-    // 4. 数据处理
-    const lines = msgStr.split('\n');
-    console.log(`[数据] 收到数据包，共计 ${lines.length} 行`);
+    // 4. 数据处理与行内容打印
+    // 注意：根据你前端的 join('-') 逻辑，这里先按 '-' 分割获取每一行
+    const lines = msgStr.split('-'); 
+    console.log(`[数据] 收到数据包，包含 ${lines.length} 个条目:`);
+    
+    lines.forEach((line, index) => {
+      if (line.trim()) {
+        console.log(`   L${index + 1}: ${line}`);
+      }
+    });
+    console.log(`--------------------------------`);
   });
 
   ws.on('close', () => console.log('[状态] 连接断开'));
